@@ -4,7 +4,8 @@
 只要发一个文件，它就能直接接手萨丽艾尔（147）口上的编写工作，**不用再传游戏源码**。
 
 > **在线仓库**：https://github.com/Er099/eratw-kojo-kb
-> **直接给 AI 的链接**：https://cdn.jsdelivr.net/gh/Er099/eratw-kojo-kb@main/00_core.md
+> **给 AI 的链接**（国内网络）：https://cdn.jsdelivr.net/gh/Er099/eratw-kojo-kb@main/00_core.md
+> **给 AI 的链接**（国外网络）：https://raw.githubusercontent.com/Er099/eratw-kojo-kb/main/00_core.md
 
 ---
 
@@ -50,25 +51,33 @@
 
 **仓库地址**：https://github.com/Er099/eratw-kojo-kb
 
-直接给 AI 这个链接，它会自己读：
+三个入口，按你的 AI 类型选：
+
+| 入口 | 链接 | 适用 | 更新速度 |
+|---|---|---|---|
+| **GitHub Pages** | `https://er099.github.io/eratw-kojo-kb/00_core.md` | 首选，更新即时 | push 后 1~2 分钟 |
+| **jsDelivr CDN** | `https://cdn.jsdelivr.net/gh/Er099/eratw-kojo-kb@main/00_core.md` | 国内网络更稳 | 有缓存，约 12 小时 |
+| **GitHub raw** | `https://raw.githubusercontent.com/Er099/eratw-kojo-kb/main/00_core.md` | 国外 AI（ChatGPT/Claude） | 即时 |
+
+**直接复制给 AI 的话：**
 
 ```
 先读这个文件再开始工作：
-https://cdn.jsdelivr.net/gh/Er099/eratw-kojo-kb@main/00_core.md
+https://er099.github.io/eratw-kojo-kb/00_core.md
 ```
 
-**⚠️ 国内网络注意**：`raw.githubusercontent.com` 在国内基本连不上（实测 SSL 错误），
-所以上面用的是 **jsDelivr CDN**（`cdn.jsdelivr.net`），国内可访问，但偶尔会抽风——失败就重试一次。
+**⚠️ 国内网络实测**（2026-10-18）：
 
-备用链接（如果 jsDelivr 也不通）：
+- `raw.githubusercontent.com` → **完全不通**（SSL 被阻断）
+- `raw.githack.com` / `cdn.statically.io` → 同样不通
+- `cdn.jsdelivr.net` → **可以通**，偶尔抖动，失败重试一次即可
+- `er099.github.io` → 一般可通，但不如 jsDelivr 稳
 
-```
-https://raw.githubusercontent.com/Er099/eratw-kojo-kb/main/00_core.md
-```
+所以：**国内 AI 用 jsDelivr，国外 AI 用 raw 或 Pages**。
 
 其他文件的链接格式一样，把文件名换掉即可：
 
-| 文件 | 链接后缀 |
+| 文件 | 文件名 |
 |---|---|
 | 核心包 | `00_core.md` |
 | 模板索引 | `01_template_index.md` |
@@ -76,9 +85,11 @@ https://raw.githubusercontent.com/Er099/eratw-kojo-kb/main/00_core.md
 | 147 现状 | `03_status.md` |
 | 四合一 | `ALL_IN_ONE.md` |
 
-- **优点**：换 AI、换电脑、换设备都不用重新上传
-- **缺点**：依赖 AI 的联网能力；仓库是公开的
-- **更新**：本地改完 → `git add -A && git commit -m "update" && git push`，CDN 会在几分钟内刷新（急用可在链接后加 `?v=2` 强制刷新）
+**更新后 CDN 还是旧内容怎么办？** 在链接后加 `?v=2`（数字随便改）强制绕过缓存：
+
+```
+https://cdn.jsdelivr.net/gh/Er099/eratw-kojo-kb@main/00_core.md?v=2
+```
 
 > ⚠️ 不建议把游戏源码（185 MB）传到仓库，超 GitHub 单仓库限制，且没必要——AI 真正需要的只是这份索引。
 
