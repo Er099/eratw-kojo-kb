@@ -1,0 +1,18 @@
+# 系统 / 临时文件
+Thumbs.db
+desktop.ini
+.DS_Store
+*.tmp
+*.bak
+~$*
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 不纳入版本管理的游戏文件（体积过大，且与知识库无关）
+eraTW/
+eratw-sub-modding-main/
+*.zip
+*.rar
+*.7z
