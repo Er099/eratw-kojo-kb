@@ -6,6 +6,8 @@
 > **在线仓库**：https://github.com/Er099/eratw-kojo-kb
 > **给 AI 的链接**（国内网络）：https://cdn.jsdelivr.net/gh/Er099/eratw-kojo-kb@main/00_core.md
 > **给 AI 的链接**（国外网络）：https://raw.githubusercontent.com/Er099/eratw-kojo-kb/main/00_core.md
+>
+> 👉 **第一次用请先看 [HOWTO.md](HOWTO.md)** —— 保姆级操作教程（开联网、发什么话、怎么验收、常见问题）
 
 ---
 
