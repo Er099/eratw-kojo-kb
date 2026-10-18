@@ -151,6 +151,26 @@ TEMPLATE_DIR = r"D:\F\口上制作尝试\TW口上汉化精修模版(4.954-4.97X)
 KOJO_DIR = os.path.join(GAME, r"ERB\口上・メッセージ関連\個人口上\147 Sariel [サリエル]")
 ```
 
+### 更新到 GitHub（让链接也同步）
+
+重新生成之后，在这个目录打开终端，执行：
+
+```bash
+git add -A
+git commit -m "update"
+git push
+```
+
+**首次推送要认证**，两种办法：
+
+- **推荐**：先执行一次 `git config --global credential.helper manager`，之后 `git push` 会弹出浏览器登录窗口，登录一次以后自动记住
+- 或者：把 Personal Access Token 当密码用（用户名填 `Er099`）
+
+推送完成后：
+
+- **GitHub Pages** 1~2 分钟自动更新
+- **jsDelivr** 有约 12 小时缓存，急用就在链接后加 `?v=2`
+
 ---
 
 ## 为什么不能真的「共享」一个知识库
