@@ -3,9 +3,9 @@
 eraTW 口上知识库生成器  v1
 =========================================================
 生成三个按需分发的文件：
-    01_模板索引.md   —— 所有口上模板函数的清单（函数名 / 行号 / 用途 / 指令编号反查）
-    02_地点表.md     —— 643 个地点 ID（写 604 散步等按地点分的口上时用）
-    03_147现状.md    —— 萨丽艾尔口上当前写到哪了（换 AI 时用）
+    01_template_index.md   —— 所有口上模板函数的清单（函数名 / 行号 / 用途 / 指令编号反查）
+    02_places.md     —— 643 个地点 ID（写 604 散步等按地点分的口上时用）
+    03_status.md    —— 萨丽艾尔口上当前写到哪了（换 AI 时用）
 
 用法：
     双击本文件；或在命令行执行
@@ -346,9 +346,9 @@ def build_status():
 def build_all_in_one():
     """把 00 + 01 + 02 + 03 拼成一个文件，给上下文大的 AI 一次上传"""
     parts = []
-    parts.append("<!-- 本文件由 BUILD.py 自动合并生成：00_核心包 + 01_模板索引 + 02_地点表 + 03_147现状 -->")
+    parts.append("<!-- 本文件由 BUILD.py 自动合并生成：00_core + 01_template_index + 02_places + 03_status -->")
     parts.append("")
-    for name in ("00_核心包.md", "03_147现状.md", "01_模板索引.md", "02_地点表.md"):
+    for name in ("00_core.md", "03_status.md", "01_template_index.md", "02_places.md"):
         path = os.path.join(BASE, name)
         if not os.path.isfile(path):
             continue
@@ -369,9 +369,9 @@ def main():
     print()
 
     tasks = [
-        ("01_模板索引.md", build_template_index),
-        ("02_地点表.md", build_place_table),
-        ("03_147现状.md", build_status),
+        ("01_template_index.md", build_template_index),
+        ("02_places.md", build_place_table),
+        ("03_status.md", build_status),
     ]
 
     ok = 0
@@ -400,9 +400,9 @@ def main():
     print("完成 %d/%d。输出目录：%s" % (ok, len(tasks), BASE))
     print()
     print("用法：")
-    print("  每个新 AI 会话先发 00_核心包.md")
-    print("  要查模板时再发 01_模板索引.md，写散步时发 02_地点表.md")
-    print("  换 AI 时附上 03_147现状.md")
+    print("  每个新 AI 会话先发 00_core.md")
+    print("  要查模板时再发 01_template_index.md，写散步时发 02_places.md")
+    print("  换 AI 时附上 03_status.md")
     print("  上下文大的 AI 可以直接发 ALL_IN_ONE.md（一次到位）")
 
 
