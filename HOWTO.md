@@ -152,6 +152,7 @@ PRINTFORMDW 和 PRINTFORMW 有什么区别？给我源码或官方文档依据�
 | 它说「我不知道 604 的模板长什么样」 | `01_template_index.md` |
 | 写散步，要按地点分 | `02_places.md` |
 | 换 AI 了，要让它知道写到哪了 | `03_status.md` |
+| 它写的语法你不确定对不对 | `04_emuera_syntax_index.md` |
 | 用的是 Kimi / Claude（上下文很大） | `ALL_IN_ONE.md` 一次全给它 |
 
 **只发 `00_core.md` 就能干 80% 的活。** 其余按需补。
@@ -259,12 +260,15 @@ git push
 
 | 文件 | 什么时候用 |
 |---|---|
-| `00_core.md` | **每次都发**。规则、语法、编号、片段、坑，全在这 |
+| `00_core.md` | **每次都发**。规则、语法（4.1~4.16 全章）、编号、片段、坑，全在这 |
 | `01_template_index.md` | AI 要查某条指令的模板时 |
 | `02_places.md` | 写按地点分的口上（如 604 散步）时 |
 | `03_status.md` | 换 AI 时，让它知道进度 |
-| `ALL_IN_ONE.md` | 上下文大的 AI，一次全给它 |
-| `BUILD.py` | 更新索引时双击 |
+| `04_emuera_syntax_index.md` | 语法拿不准，要查某个命令的准确签名时 |
+| `05_emuera_syntax_full.md` | 1.7MB 官方全文，一般不发，AI 能读本地时用 |
+| `ALL_IN_ONE.md` | 上下文大的 AI，00~03 一次全给它 |
+| `BUILD.py` | 更新 01/02/03/ALL_IN_ONE 时双击 |
+| `EMUERA_KB_SYNC.py` | Emuera 官方文档更新后跑，刷新 04/05 |
 | `README.md` | 说明文档（就是你正在看的这类） |
 
 ---

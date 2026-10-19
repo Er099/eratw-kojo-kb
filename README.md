@@ -15,12 +15,15 @@
 
 | 文件 | 大小 | 作用 | 什么时候发 |
 |---|---|---|---|
-| **00_core.md** | 24 KB | 规则 + 框架机制 + 语法速查 + 变量编号 + 代码片段 + 踩坑清单 | **每个新会话都发** |
+| **00_core.md** | 34 KB | 规则 + 框架机制 + **Emuera 语法全章（4.1~4.16）** + 变量编号 + 代码片段 + 踩坑清单 | **每个新会话都发** |
 | 01_template_index.md | 131 KB | 887 个模板函数的清单，含「指令编号 → 模板函数」反查 | AI 要查某条指令的模板时 |
 | 02_places.md | 21 KB | 647 个地点 ID（中文名 + 日文原名），按 12 个地图分组 | 写 604 散步等按地点分的口上时 |
 | 03_status.md | 9 KB | 147 口上当前写到哪了（函数清单 + 已实现指令编号） | 换 AI 时附上，让它知道进度 |
-| **ALL_IN_ONE.md** | 186 KB | 上面四个合并成一个 | 上下文大的 AI（Kimi / Claude / Gemini）一次传完 |
+| **04_emuera_syntax_index.md** | 68 KB | Emuera 官方文档 **387 篇索引**（名称/标题/签名/摘要/路径） | 语法拿不准、要查准确签名时 |
+| 05_emuera_syntax_full.md | 1.7 MB | Emuera 官方文档 **387 篇中文全文** | 一般不发，AI 能读本地时用 |
+| **ALL_IN_ONE.md** | 189 KB | 00~03 合并成一个 | 上下文大的 AI（Kimi / Claude / Gemini）一次传完 |
 | BUILD.py | — | 生成 01/02/03/ALL_IN_ONE 的脚本 | 素材更新后双击重跑 |
+| EMUERA_KB_SYNC.py | — | 生成 04/05 的脚本 | Emuera 文档更新后跑一次 |
 
 **最小用法：只发 00_core.md 就能开工。** 其余按需补充。
 
@@ -85,6 +88,8 @@ https://er099.github.io/eratw-kojo-kb/00_core.md
 | 模板索引 | `01_template_index.md` |
 | 地点表 | `02_places.md` |
 | 147 现状 | `03_status.md` |
+| 语法索引 | `04_emuera_syntax_index.md` |
+| 语法全文 | `05_emuera_syntax_full.md` |
 | 四合一 | `ALL_IN_ONE.md` |
 
 **更新后 CDN 还是旧内容怎么办？** 在链接后加 `?v=2`（数字随便改）强制绕过缓存：
