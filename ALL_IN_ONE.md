@@ -360,8 +360,10 @@ ENDDATA
 | 块内不能变色 | 块内只允许 DATA 系命令，写不了 `SETCOLOR`。要「部分行变色」必须拆成多个块用 `IF` 分流 |
 | 赋值版 | `STRDATA 变量名` … `ENDDATA`：不显示，把选中的字符串塞进变量 |
 
-> **后缀实证**（扫 eraTW 全部 4258 个 ERB，2026-10-19）：`PRINTDATAL` 1260 次、`PRINTDATAW` 935 次、`PRINTDATAD` 519 次；`PRINTDATAK` / `PRINTDATAN` 全库 0 次。
-> 官方文档只给出签名 `PRINTDATA(|K|D)(|L|W)` 并注明「K、D、L、W 的效果与 PRINT 系相同」，没有 `PRINTDATAD` 的字面示例——但源码里用了 519 次，**可放心用**。
+> **后缀实证**（扫 eraTW 全部 4258 个 ERB，2026-10-19，严格正则区分后缀组合）：
+> `PRINTDATAL` **1260**、`PRINTDATA`（无后缀）**957**、`PRINTDATAW` **935**、`PRINTDATADL` **296**、`PRINTDATADW` **199**、`PRINTDATAD`（裸形）**24**；`PRINTDATAK` / `PRINTDATAN` 全库 **0**。
+> 官方文档只给出签名 `PRINTDATA(|K|D)(|L|W)` 并注明「K、D、L、W 的效果与 PRINT 系相同」，没有 `PRINTDATAD` 的字面示例——但 `DATAD` 三种写法（裸形 24 + `DATADL` 296 + `DATADW` 199 = 519）实际都在用，**可放心用**。
+> ⚠️ 统计时别把 `PRINTDATADL`/`PRINTDATADW` 并进 `PRINTDATAD`——`PRINTDATA([KDLWN])` 这种单字符捕获组会把它们全算成 `DATAD`，得出「519 次裸形」的错误结论。
 
 示例：
 
@@ -518,7 +520,12 @@ IF FIRSTTIME("事件名", 0, -1)     ; 第 3 参指定角色：省略 = TARGET�
 - 调用：`CALL MY_FUNC, 1, 2, "文本"`，或 `CALL MY_FUNC(1, 2, "文本")`
 - **类型不自动转换**：数值传进字符串参数会直接报错
 - 字符串字面量 `"..."`；格式化字符串 `@"..."`
-- 可变长参数：函数声明加 `VARIADIC`，用 `ARGLEN` 取个数、`ARG:0..6` 取值 —— eraTW 的 `TEXTR` 就是这么写的
+- 可变长参数：函数声明加 `VARIADIC`，用 `ARGLEN` 取个数、`ARG:0..6` 取值
+- ⚠️ **eraTW 的 `TEXTR` 不是 `VARIADIC`**。它的签名是写死的固定 7 参：
+  `@TEXTR(ARGS, ARGS:1, ARGS:2, ARGS:3, ARGS:4, ARGS:5, ARGS:6)`（`COMMON.ERB:257`，`#FUNCTIONS`），
+  内部把 7 个串用 `\/` 拼成一个长串 → `REPLACE` 压掉连续斜杠和首尾斜杠 → `SPLIT` 切进 `STR_ARRAY` → `RAND` 抽一个。
+  这正是「最多 7 个参数字符串」的由来：**不是实现限制，是签名只有 7 个槽**。
+  （全库 4258 个 ERB 里 `VARIADIC` 出现 **0** 次；该语法本身在官方文档里有 33 处，只是 eraTW 没用。）
 
 **省略参数**（官方 `function.zh.md`）：
 
@@ -720,7 +727,7 @@ TRY ... CATCH ... ENDCATCH                  ; 捕获
 | 4 | 淫乱 | 1 / 2=上位互换 |
 | 7 | 恋人 | 1（只能有一个） |
 | 8 | 思慕 | 1 |
-| 10 | 胆量 | -1=胆怯 1=坚强 |
+| 10 | 胆量 | -1=胆怯 1=坚强 ※ |
 | 23 | 性的兴趣 | -1=保守 1=好奇 |
 | 25 | 一線越えない | 1（不越线） |
 | 31 | 自己愛 | -1=压抑 1=解放 |
@@ -735,6 +742,9 @@ TRY ... CATCH ... ENDCATCH                  ; 捕获
 | 193 | 神霊 | 6=天使 |
 | 200 | 魔界人 | 1 |
 
+> ※ **`10 胆量` 的取值只有 -1 有 CSV 依据**：`Talent.csv:16` 写的是 `10,胆量,` 加一行注释 `; -1=膽怯,;ABL:従順が上げやすい。PALAM:反感が上がりにくい`，**没有写 1 是什么**。
+> 「1=坚强」是从代码反推的：`COMORDER.ERB:227` 有 `;堅強` 分支，`IF TALENT:胆量 > 0` 时 `PRINT 坚强`（状态栏显示「坚强」）。方向可用（`< 0` 走认怂/低头分支，`> 0` 走强势分支），但**别把它当官方定义**。
+> 顺带一提：`1=贞操重视` 是 **30 号「贞操」** 的取值，不是 10 号胆量的，两个别混。
 ### 5.2 ABL（能力，0~5）
 
 | 编号 | 名称 |
