@@ -340,7 +340,10 @@ ENDDATA
 | 输出单位 | `DATALIST` 内部每个 `DATA`/`DATAFORM` 各占一行，选中该块时**全部输出** |
 | 参数 | `PRINTDATA LOCAL` 会把**被选中项的编号**（从 0 开始）存进 `LOCAL` |
 | 块内限制 | 只允许 `DATA` / `DATAFORM` / `DATALIST` / `ENDLIST`，**不能写别的命令** |
-| 后缀 | 同 PRINT 系：`PRINTDATADL`（默认色+换行）、`PRINTDATAL`、`PRINTDATAW` |
+| 后缀 | 同 PRINT 系：`PRINTDATA(|K|D)(|L|W)` —— `PRINTDATAD`（默认色）、`PRINTDATADL`（默认色+换行）、`PRINTDATADW`（默认色+换行+WAIT）、`PRINTDATAW`（口上色+换行+WAIT） |
+| **无参数** | `PRINTDATA` 系列**不接受字符串参数**！`PRINTDATADW 文本` 会编译报错，必须紧跟 `DATA`/`DATAFORM` |
+| 颜色 | 想让整块用默认色（= `PRINTFORMD` 效果）直接写 `PRINTDATAD*`；外层 `RESETCOLOR` 也行但有副作用 |
+| 块内不能变色 | 块内只允许 DATA 系命令，写不了 `SETCOLOR`。要「部分行变色」必须拆成多个块用 `IF` 分流 |
 | 赋值版 | `STRDATA 变量名` … `ENDDATA`：不显示，把选中的字符串塞进变量 |
 
 示例：
@@ -362,8 +365,9 @@ ENDDATA
 - 按 `/` 切分后**等概率**随机取一个，最多 7 段（多余的忽略）
 - **结尾的 `/` 不会产生空选项**：函数内部会删掉首尾斜杠和连续斜杠
   - 想表达「有时什么都不加」必须用**全角下划线 `＿`**：`%TEXTR("甲/乙/＿")%`
-- `%TEXTR("/")%` = 空串，没意义
+- `%TEXTR("/")%` = 空串，没意义（首尾斜杠都被删光，SPLIT 后只剩一个空串）
 - 调权重靠**重复**：`%TEXTR("我/我/咱")%` = 我 2/3
+- **只看全角 `＿`**：半角 `_`、`/` 都不行，写了会照原样显示出来
 - **参数里要嵌 `%变量%` 时必须用 `@"..."`**：
 
 ```erb
@@ -690,6 +694,9 @@ RETURN 1
 | 15 | 每句都 `PRINTFORMW` | 会造成点击地狱。中间用 `L`，段末用 `W` |
 | 16 | 以为 602「约会接吻」能用 | 本版**未实装**（`Train.csv` 无 600/601/602）。接吻用 `19`/`20`/`312`/`SCOMF63` |
 | 17 | 以为散步是 694 | 是 **604**（`Train.csv: 604,散步`） |
+| 18 | `PRINTDATADW 文本` | `PRINTDATA` 系列**不收参数**，`PRINTDATADW` 后面必须直接跟 `DATA`/`DATAFORM`，否则编译报错。要整句文本请用 `PRINTFORMDW` |
+| 19 | `%TEXTR("默默/静静的/_")%` 用半角 `_` | 只有**全角 `＿`** 会被转成空串，半角 `_` 会原样显示 |
+| 20 | 以为 `DATA`/`DATAFORM` 会依次全显示 | 顶层各项是**等概率选一个**，想全显示要拆块或改用 `DATALIST` |
 | 18 | `TALENT:胸围` 和 `BASE:胸围` 混用 | 前者是等级（-2~2），后者是 cm 数值 |
 
 ---
