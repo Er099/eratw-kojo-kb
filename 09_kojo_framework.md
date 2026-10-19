@@ -26,9 +26,9 @@ TRYCALLFORM M_KOJO%KOJO_NAME%_MESSAGE_COM_K{NO:TARGET}_{LOCAL}
 ```
 玩家选指令
   → 指令实现（COMFxxx.ERB）
-    → @KOJO_MESSAGE_SEND("COM", 0, TARGET, ...)
-      → 读口上标识符 KOJO_NAME
-        → TRYCALLFORM M_KOJO{KOJO_NAME}_MESSAGE_COM_K{NO}_{指令号}
+    → @KOJO_MESSAGE_SEND("COMMAND", 0, TARGET, ...)
+      → CASE "COMMAND"：LOCALS = "COM"、LOCAL = SELECTCOM
+        → TRYCALLFORM M_KOJO{ID}_MESSAGE_COM_K{NO}_{SELECTCOM}
           → 你的口上函数
 ```
 
@@ -38,7 +38,9 @@ TRYCALLFORM M_KOJO%KOJO_NAME%_MESSAGE_COM_K{NO:TARGET}_{LOCAL}
 @KOJO_MESSAGE_SEND(ARGS, ARG:1, ARG:2, ARG:3, ARG:4, ARGS:1, ARGS:2, ARG:5, ARG:6, OVERRIDE_TARGET = -1)
 ```
 
-第一个参数是类别字符串（`"COM"` / `"SCOM"` / …），框架用它拼 `M_KOJO_{ID}_MESSAGE_{类别}_K{NO}_{编号}`。
+第一个参数是**入口类别**，实参是 `"COMMAND"` / `"SP_EVENT"` / `"EVENT"` / `"COUNTER"` / `"PALAM"` / `"ENCOUNTER"` / `"SUCCESS"` / `"ENDING"` 等（完整清单见 `KOJO_MESSAGE.ERB:4-5` 的注释）。框架在 `CASE "COMMAND"` 内部再把它映射成 `LOCALS = "COM"`，然后用 `M_KOJO{ID}_MESSAGE_{LOCALS}_K{NO}_{LOCAL}` 拼函数名。
+
+> ⚠️ **别写成 `"COM"`**。`CASE "COM"`（`KOJO_MESSAGE.ERB:1058`）是**另一个入口**，管的是「口上自定义指令」——它拼的是 `KOJO{ID}_COM_K{NO}_{编号}`（没有 `M_` 前缀），和普通指令口上完全是两套东西。
 
 ---
 
@@ -115,10 +117,22 @@ KOJO_ACTIVE_NAME:ARG = %RESULTS%
 
 | 函数 | 说明 |
 |---|---|
-| `@M_KOJO_{ID}_MESSAGE_COM_K{NO}_{N}` | **普通指令**，N = `Train.csv` 编号（如 604 散步） |
-| `@M_KOJO_{ID}_MESSAGE_SCOM_K{NO}_{N}` | **性交系指令** |
+| `@M_KOJO_{ID}_MESSAGE_COM_K{NO}_{N}` | **普通指令**，N = `Train.csv` 编号（如 604 散步）。**性交系 60/61/62 也走这里** |
+| `@M_KOJO_{ID}_MESSAGE_SCOM_K{NO}_{N}` | **只有 `TFLAG:50` 非零时才走**——那是「特殊 COM」（六九式 / 岩清水 / G 点刺激 / 乱牡丹 / 手淫口交…，见 `TFLAG.csv:50` 注释） |
 | `@M_KOJO_{ID}_MESSAGE_COM_K{NO}_DANMAKU` | 弹幕指令（特殊） |
 
+> 框架侧（`KOJO_MESSAGE.ERB:220-227`）：
+> ```erb
+> IF TFLAG:50
+>     LOCAL = TFLAG:50
+>     LOCALS = SCOM
+> ELSE
+>     LOCAL = SELECTCOM
+>     LOCALS = COM
+> ENDIF
+> ```
+> 所以**普通性交指令写 `MESSAGE_COM`，不是 `MESSAGE_SCOM`**。写错的话函数永远不被调用，而且不报错。
+>
 > 指令编号见 `08_command_index.md`。编号**不连续**，被注释掉的旧编号无效。
 
 ### 4.3 事件类
@@ -167,37 +181,40 @@ KOJO_ACTIVE_NAME:ARG = %RESULTS%
 @M_KOJO_147_MESSAGE_MESSAGECHECK_COM_K147_604
 #LOCALSIZE 1
 #LOCALSSIZE 1
-RESULT = 0        ; 默认：都显示
-RETURN 1
+RETURN 0          ; 0 = 系统文本 + 口上都显示
 ```
 
 > 命名顺序是 `M_KOJO{ID}_MESSAGE_MESSAGECHECK_{类别}_K{NO}_{编号}`，
 > **`MESSAGECHECK` 在类别前面**，别写成 `MESSAGE_COM_MESSAGECHECK`。
 > 实例：`@M_KOJO_YURI百合_MESSAGE_MESSAGECHECK_COM_K1_60`（灵梦百合口上）
 
-框架侧（`KOJO_MESSAGE.ERB:246`）：
+框架侧（`KOJO_MESSAGE.ERB:243-247`）：
 
 ```erb
+RESULT = 0
+TRYCALLFORM M_KOJO%KOJO_NAME%_MESSAGE_MESSAGECHECK_%LOCALS%_K{NO:TARGET}_{LOCAL}
 SKIP_MESSAGE = GETBIT(RESULT, 0)   ; bit0 = 屏蔽系统文本
 SKIP_KOJO    = GETBIT(RESULT, 1)   ; bit1 = 屏蔽口上文本
 ```
 
-| RESULT | bit0 | bit1 | 效果 |
-|---:|---|---|---|
-| 0 | 0 | 0 | 系统文本 + 口上都显示（默认） |
-| 1 | 1 | 0 | **只显示口上**（最常用：想让自己的描写替代系统那行） |
-| 2 | 0 | 1 | 只显示系统文本 |
-| 3 | 1 | 1 | 全屏蔽 |
+**这个函数的 `RETURN n` 就是掩码本身。** 官方 `RETURN.zh.md` 写明「`RETURN` 将参数指定的值赋值给 `RESULT`」，所以调用方的 `RESULT` 会被你的返回值覆盖，不需要在函数里再写 `RESULT =`。
 
-写法：
+| 返回值 | bit0 | bit1 | 效果 |
+|---:|---|---|---|
+| `RETURN 0` | 0 | 0 | 系统文本 + 口上都显示（默认） |
+| `RETURN 1` | 1 | 0 | **只显示口上**（最常用：想让自己的描写替代系统那行） |
+| `RETURN 2` | 0 | 1 | 只显示系统文本 |
+| `RETURN 3` | 1 | 1 | 全屏蔽 |
+
+要按条件决定时，用 `SETBIT` 构造后再返回：
 
 ```erb
-RESULT = 0
-SETBIT RESULT, 0     ; 屏蔽系统文本
-RETURN 1
+SETBIT RESULT, 0     ; 置 bit0 = 屏蔽系统文本
+RETURN RESULT
 ```
 
-> ⚠️ 别把 `MESSAGECHECK` 当布尔用。它返回的是掩码，`RETURN 1` 和 `RESULT = 1` 是两回事——**`RETURN 1` 只表示「函数存在」，屏蔽哪部分是 `RESULT` 决定的**。
+> ⚠️ 别把 `MESSAGECHECK` 当布尔用。`RETURN 1` 的意思是**「屏蔽系统文本」**，不是「函数存在」。
+> 函数存不存在由 `TRYCALLFORM` 自己判断（找不到就静默跳过），跟返回值无关。
 
 ---
 
@@ -205,11 +222,12 @@ RETURN 1
 
 | 函数 | `RETURN 1` | `RETURN 0` |
 |---|---|---|
-| `@M_KOJO_K{NO}`（入口） | 口上存在 | **口上会被当成不存在** |
-| `@M_KOJO_..._MESSAGE_COM_...`（正文） | 已输出文本，跳过自动娇喘兜底 | 触发框架的自动兜底文本 |
-| `@M_KOJO_..._MESSAGECHECK_...` | 检查函数存在 | — |
+| `@M_KOJO_K{NO}`（入口） | 口上存在 | **口上会被当成不存在**（`KOJO_ACTIVE_INFO` 的 `RESULT` 会被检查） |
+| `@M_KOJO_..._MESSAGE_COM_...`（正文） | 已输出文本，跳过自动娇喘兜底 | 触发框架的自动兜底文本（`SIF !KOJO_RESULT && CFLAG:TARGET:自动喘息`） |
+| `@M_KOJO_..._MESSAGECHECK_...` | **屏蔽系统文本**（掩码 bit0） | 系统文本 + 口上都显示 |
 
 > 正文函数写完一定要 `RETURN 1`。写 `RETURN 0` 会出现「你写的文本 + 系统自动补一句娇喘」的重复。
+> MESSAGECHECK 则是**反过来**：想都显示就 `RETURN 0`。这两条别记混。
 
 ---
 
@@ -303,7 +321,7 @@ ENDIF
 - [ ] 钩子函数名里的编号是**角色定义编号**（147），不是 `NO:` 运行时编号
 - [ ] 指令号来自 `08_command_index.md`，不是自己猜的
 - [ ] 正文函数结尾 `RETURN 1`
-- [ ] 用了 `MESSAGECHECK` 的话，`RESULT` 用位掩码（`SETBIT RESULT, 0`），不是 `RETURN 1`
+- [ ] `MESSAGECHECK` 的返回值**就是掩码**：都显示写 `RETURN 0`，只留口上写 `RETURN 1`
 - [ ] 颜色用 `C_xxx` 常量，不是手写十六进制
 - [ ] 变量名在 `06_variable_names.md` 里查得到（或者直接用编号）
 - [ ] **进游戏实际触发一次**，确认文本出现
