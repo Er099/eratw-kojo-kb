@@ -50,7 +50,7 @@ AI **不写剧情、不改文本、不改用户的差分设计**。发现明显�
 
 ### 1.2 结构层
 
-1. **不自己造模板**。函数名、变量位、`SELECTCASE`、`FIRSTTIME`、`CD`、各种 `MESSAGE`/`SUCCESS` 函数，一律以游戏模板或用户已有代码为准。
+1. **不自己造模板**。函数名、变量位、`SELECTCASE`、`FIRSTTIME`、各种 `MESSAGE`/`SUCCESS` 函数，一律以游戏模板或用户已有代码为准。
 2. **配对必须完整**：
    - `IF` / `ELSEIF` / `ELSE` → `ENDIF`
    - `SELECTCASE` → `ENDSELECT`（用户特别强调过漏 `ENDSELECT` 的问题）
@@ -110,7 +110,7 @@ ENDIF
 
 ## 3. eraTW 口上框架机制
 
-> **完整派发机制、43 种钩子函数、颜色常量、4.980 拦截器 → `09_kojo_framework.md`**
+> **完整派发机制、29 类钩子 + MESSAGECHECK 变体、颜色常量、4.980 拦截器 → `09_kojo_framework.md`**
 > 本章只讲写口上必须记住的部分。
 
 ### 3.1 函数命名规则（最重要，历史事故点）
@@ -949,7 +949,7 @@ RETURN 1
 | `06_variable_names.md` | ~115 KB | **变量名拿不准时必查**（2179 项，编号/汉化名/日文原名/备注） |
 | `07_character_index.md` | ~11 KB | 角色编号表（168 个角色，含是否有口上） |
 | `08_command_index.md` | ~9 KB | 指令编号表（229 条，写 `MESSAGE_COM_K147_xxx` 前查这个） |
-| `09_kojo_framework.md` | ~11 KB | 口上派发机制、43 种钩子、MESSAGECHECK、颜色常量、4.980 拦截器 |
+| `09_kojo_framework.md` | ~11 KB | 口上派发机制、29 类钩子、MESSAGECHECK、颜色常量、4.980 拦截器 |
 
 **只发 00 就能开工**，01~04、06~09 是按需补充。
 

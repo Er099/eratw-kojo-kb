@@ -4,8 +4,9 @@
 只要发一个文件，它就能直接接手萨丽艾尔（147）口上的编写工作，**不用再传游戏源码**。
 
 > **在线仓库**：https://github.com/Er099/eratw-kojo-kb
-> **给 AI 的链接**（国内网络）：https://cdn.jsdelivr.net/gh/Er099/eratw-kojo-kb@main/00_core.md
-> **给 AI 的链接**（国外网络）：https://raw.githubusercontent.com/Er099/eratw-kojo-kb/main/00_core.md
+> **给 AI 的链接（首选，国内可用）**：https://er099.github.io/eratw-kojo-kb/00_core.md
+> **备用（国内，有 12h 缓存）**：https://cdn.jsdelivr.net/gh/Er099/eratw-kojo-kb@main/00_core.md
+> **国外网络**：https://raw.githubusercontent.com/Er099/eratw-kojo-kb/main/00_core.md （⚠️ 国内完全不通）
 >
 > 👉 **第一次用请先看 [HOWTO.md](HOWTO.md)** —— 保姆级操作教程（开联网、发什么话、怎么验收、常见问题）
 
@@ -24,7 +25,7 @@
 | **06_variable_names.md** | 115 KB | **变量名全表 2179 项**（编号 / 汉化名 / 日文原名 / 备注），源码实测 | 变量名拿不准时必查 |
 | 07_character_index.md | 11 KB | 角色编号表 168 个（名前 / 呼び名 / 是否有口上） | 要确认角色编号时 |
 | 08_command_index.md | 9 KB | 指令编号表 229 条（汉化名 / 日文原名） | 写 `MESSAGE_COM_K147_xxx` 前查 |
-| 09_kojo_framework.md | 11 KB | 派发机制、43 种钩子、MESSAGECHECK、颜色常量、4.980 拦截器 | 写新钩子 / 排查「文本不显示」时 |
+| 09_kojo_framework.md | 11 KB | 派发机制、29 类钩子、MESSAGECHECK、颜色常量、4.980 拦截器 | 写新钩子 / 排查「文本不显示」时 |
 | **ALL_IN_ONE.md** | 197 KB | 00~03 合并成一个 | 上下文大的 AI（Kimi / Claude / Gemini）一次传完 |
 | BUILD.py | — | 生成 01/02/03/ALL_IN_ONE 的脚本 | 素材更新后双击重跑 |
 | EMUERA_KB_SYNC.py | — | 生成 04/05 的脚本 | Emuera 文档更新后跑一次 |
@@ -146,17 +147,17 @@ https://cdn.jsdelivr.net/gh/Er099/eratw-kojo-kb@main/00_core.md?v=2
 
 ## 更新知识库
 
-改了口上 / 换了游戏版本 / 更新了模板之后：
+改了不同东西要跑不同脚本（都是双击）：
 
-```
-双击 BUILD.py
-```
+| 改了什么 | 跑哪个 | 生成 |
+|---|---|---|
+| 口上进度 / 模板 / 地点 | `BUILD.py` | 01 / 02 / 03 / ALL_IN_ONE |
+| Emuera 官方语法文档 | `EMUERA_KB_SYNC.py` | 04 / 05 |
+| 游戏本体（CSV / 角色 / 指令） | `ERATW_SOURCE_INDEX.py` | 06 / 07 / 08 |
 
-它会重新生成 01 / 02 / 03（**不会动 00_core.md**）。
+三个脚本都**不会动 `00_core.md`**——那是手写的，规则变了直接编辑，纯 Markdown。
 
-`00_core.md` 是手写的，规则变了要手动改——直接编辑就行，纯 Markdown。
-
-如果换了电脑或改了目录，打开 `BUILD.py` 改开头这三个常量：
+如果换了电脑或改了目录，打开脚本改开头的路径常量。`BUILD.py` 是这样：
 
 ```python
 GAME = r"D:\F\口上制作尝试\AI代写代码测试\eraTW"
@@ -164,20 +165,16 @@ TEMPLATE_DIR = r"D:\F\口上制作尝试\TW口上汉化精修模版(4.954-4.97X)
 KOJO_DIR = os.path.join(GAME, r"ERB\口上・メッセージ関連\個人口上\147 Sariel [サリエル]")
 ```
 
+`ERATW_SOURCE_INDEX.py` 改 `GAME` 一行即可；`EMUERA_KB_SYNC.py` 改 `SRC_DIR`。
+
 ### 更新到 GitHub（让链接也同步）
 
-重新生成之后，在这个目录打开终端，执行：
+重新生成之后，**双击本目录的 `PUSH.bat`** 即可。
 
-```bash
-git add -A
-git commit -m "update"
-git push
-```
+它会自动定位 WorkBuddy 自带的 git（系统 PATH 里没有 `git` 命令），然后执行 `git push`，成功后显示 `[OK]`。
 
-**首次推送要认证**，两种办法：
-
-- **推荐**：先执行一次 `git config --global credential.helper manager`，之后 `git push` 会弹出浏览器登录窗口，登录一次以后自动记住
-- 或者：把 Personal Access Token 当密码用（用户名填 `Er099`）
+> 第一次推送可能弹浏览器让你登录 GitHub，用 `Er099` 账号登录并点 Authorize，之后自动记住。
+> 如果报 `CONNECT tunnel failed 502`，是网络到 github.com 不通，过几分钟重试。
 
 推送完成后：
 

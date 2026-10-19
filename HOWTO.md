@@ -236,26 +236,26 @@ https://er099.github.io/eratw-kojo-kb/00_core.md?v=2
 
 ### 怎么更新
 
-**第 1 步**：双击 `D:\F\口上制作尝试\AI知识库\BUILD.py`
+**第 1 步**：按改动内容跑对应的脚本（双击即可）
 
-它会重新生成 `01_template_index.md`、`02_places.md`、`03_status.md`、`ALL_IN_ONE.md`。
-**不会动 `00_core.md`**（那是手写的，要改直接编辑）。
+| 改了什么 | 跑哪个 |
+|---|---|
+| 口上进度、模板、地点 | `BUILD.py`（生成 01/02/03/ALL_IN_ONE） |
+| Emuera 官方语法文档 | `EMUERA_KB_SYNC.py`（生成 04/05） |
+| 游戏本体（CSV / 角色 / 指令） | `ERATW_SOURCE_INDEX.py`（生成 06/07/08） |
 
-**第 2 步**：在这个文件夹里打开终端（地址栏输入 `cmd` 回车），执行：
+它们都**不会动 `00_core.md`**（那是手写的，要改直接编辑）。
 
-```
-git add -A
-git commit -m "update"
-git push
-```
+**第 2 步**：双击 `PUSH.bat`
+
+它会自动找到 WorkBuddy 自带的 git（你电脑上没单独装 Git，PATH 里没有 `git` 命令），然后执行 `git push`。成功后窗口会显示 `[OK]`，按任意键关闭。
+
+> 如果报 `CONNECT tunnel failed 502` / `Empty reply from server`，是当前网络到 github.com 不通，不是脚本坏了。过几分钟再双击一次，或换个网络。
+> 推送成功后 GitHub Pages 要 1~2 分钟才生效，不用急。
 
 **第 3 步**：等 1~2 分钟，Pages 链接自动更新。
 
-> 第一次 push 会要求登录。推荐先执行一次：
-> ```
-> git config --global credential.helper manager
-> ```
-> 之后 push 会弹浏览器窗口，登录一次就永久记住。
+> 第一次推送可能会弹浏览器让你登录 GitHub，用 `Er099` 账号登录并点 **Authorize**，之后会永久记住，不用再登。
 
 ---
 
