@@ -153,6 +153,9 @@ PRINTFORMDW 和 PRINTFORMW 有什么区别？给我源码或官方文档依据�
 | 写散步，要按地点分 | `02_places.md` |
 | 换 AI 了，要让它知道写到哪了 | `03_status.md` |
 | 它写的语法你不确定对不对 | `04_emuera_syntax_index.md` |
+| 它把变量名写错了 / 说「无法识别」 | `06_variable_names.md` |
+| 它不确定角色或指令编号 | `07_character_index.md` + `08_command_index.md` |
+| 文本写好了但游戏里不显示 | `09_kojo_framework.md`（大概率是函数名拼错） |
 | 用的是 Kimi / Claude（上下文很大） | `ALL_IN_ONE.md` 一次全给它 |
 
 **只发 `00_core.md` 就能干 80% 的活。** 其余按需补。
@@ -266,9 +269,15 @@ git push
 | `03_status.md` | 换 AI 时，让它知道进度 |
 | `04_emuera_syntax_index.md` | 语法拿不准，要查某个命令的准确签名时 |
 | `05_emuera_syntax_full.md` | 1.7MB 官方全文，一般不发，AI 能读本地时用 |
+| `06_variable_names.md` | 变量名不确定（尤其日文名 / 中文名混用）时 |
+| `07_character_index.md` | 要确认某个角色的编号时 |
+| `08_command_index.md` | 要确认某条指令的编号时 |
+| `09_kojo_framework.md` | 写新钩子、或「文本写好了但游戏里不显示」时 |
 | `ALL_IN_ONE.md` | 上下文大的 AI，00~03 一次全给它 |
 | `BUILD.py` | 更新 01/02/03/ALL_IN_ONE 时双击 |
 | `EMUERA_KB_SYNC.py` | Emuera 官方文档更新后跑，刷新 04/05 |
+| `ERATW_SOURCE_INDEX.py` | 游戏本体更新后跑，刷新 06/07/08 |
+| `PUSH.bat` | 双击推送到 GitHub |
 | `README.md` | 说明文档（就是你正在看的这类） |
 
 ---

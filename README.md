@@ -21,9 +21,15 @@
 | 03_status.md | 9 KB | 147 口上当前写到哪了（函数清单 + 已实现指令编号） | 换 AI 时附上，让它知道进度 |
 | **04_emuera_syntax_index.md** | 68 KB | Emuera 官方文档 **387 篇索引**（名称/标题/签名/摘要/路径） | 语法拿不准、要查准确签名时 |
 | 05_emuera_syntax_full.md | 1.7 MB | Emuera 官方文档 **387 篇中文全文** | 一般不发，AI 能读本地时用 |
-| **ALL_IN_ONE.md** | 189 KB | 00~03 合并成一个 | 上下文大的 AI（Kimi / Claude / Gemini）一次传完 |
+| **06_variable_names.md** | 115 KB | **变量名全表 2179 项**（编号 / 汉化名 / 日文原名 / 备注），源码实测 | 变量名拿不准时必查 |
+| 07_character_index.md | 11 KB | 角色编号表 168 个（名前 / 呼び名 / 是否有口上） | 要确认角色编号时 |
+| 08_command_index.md | 9 KB | 指令编号表 229 条（汉化名 / 日文原名） | 写 `MESSAGE_COM_K147_xxx` 前查 |
+| 09_kojo_framework.md | 11 KB | 派发机制、43 种钩子、MESSAGECHECK、颜色常量、4.980 拦截器 | 写新钩子 / 排查「文本不显示」时 |
+| **ALL_IN_ONE.md** | 197 KB | 00~03 合并成一个 | 上下文大的 AI（Kimi / Claude / Gemini）一次传完 |
 | BUILD.py | — | 生成 01/02/03/ALL_IN_ONE 的脚本 | 素材更新后双击重跑 |
 | EMUERA_KB_SYNC.py | — | 生成 04/05 的脚本 | Emuera 文档更新后跑一次 |
+| ERATW_SOURCE_INDEX.py | — | 生成 06/07/08 的脚本 | 游戏本体更新后跑一次 |
+| PUSH.bat | — | 双击推送到 GitHub | 改完知识库后 |
 
 **最小用法：只发 00_core.md 就能开工。** 其余按需补充。
 
