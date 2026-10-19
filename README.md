@@ -20,16 +20,17 @@
 | 01_template_index.md | 131 KB | 887 个模板函数的清单，含「指令编号 → 模板函数」反查 | AI 要查某条指令的模板时 |
 | 02_places.md | 21 KB | 647 个地点 ID（中文名 + 日文原名），按 12 个地图分组 | 写 604 散步等按地点分的口上时 |
 | 03_status.md | 9 KB | 147 口上当前写到哪了（函数清单 + 已实现指令编号） | 换 AI 时附上，让它知道进度 |
-| **04_emuera_syntax_index.md** | 68 KB | Emuera 官方文档 **387 篇索引**（名称/标题/签名/摘要/路径） | 语法拿不准、要查准确签名时 |
+| **04_emuera_syntax_index.md** | 157 KB | Emuera 官方文档 **387 篇索引**（名称/标题/签名/摘要/路径）+ **858 条命令反查表** | 语法拿不准、要查准确签名时 |
 | 05_emuera_syntax_full.md | 1.7 MB | Emuera 官方文档 **387 篇中文全文** | 一般不发，AI 能读本地时用 |
 | **06_variable_names.md** | 115 KB | **变量名全表 2179 项**（编号 / 汉化名 / 日文原名 / 备注），源码实测 | 变量名拿不准时必查 |
 | 07_character_index.md | 11 KB | 角色编号表 168 个（名前 / 呼び名 / 是否有口上） | 要确认角色编号时 |
 | 08_command_index.md | 9 KB | 指令编号表 229 条（汉化名 / 日文原名） | 写 `MESSAGE_COM_K147_xxx` 前查 |
-| 09_kojo_framework.md | 11 KB | 派发机制、29 类钩子、MESSAGECHECK、颜色常量、4.980 拦截器 | 写新钩子 / 排查「文本不显示」时 |
+| 09_kojo_framework.md | 12 KB | 派发机制、29 类钩子、MESSAGECHECK、颜色常量、4.980 拦截器 | 写新钩子 / 排查「文本不显示」时 |
 | **ALL_IN_ONE.md** | 197 KB | 00~03 合并成一个 | 上下文大的 AI（Kimi / Claude / Gemini）一次传完 |
 | BUILD.py | — | 生成 01/02/03/ALL_IN_ONE 的脚本 | 素材更新后双击重跑 |
-| EMUERA_KB_SYNC.py | — | 生成 04/05 的脚本 | Emuera 文档更新后跑一次 |
+| EMUERA_KB_SYNC.py | — | 生成 04/05 的脚本（含命令反查表） | Emuera 文档更新后跑一次 |
 | ERATW_SOURCE_INDEX.py | — | 生成 06/07/08 的脚本 | 游戏本体更新后跑一次 |
+| **VERIFY.py** | — | **自检脚本**：校验 md 里所有 erb 代码块的变量名/命令/函数是否真实存在 | 改完知识库后跑一次 |
 | PUSH.bat | — | 双击推送到 GitHub | 改完知识库后 |
 
 **最小用法：只发 00_core.md 就能开工。** 其余按需补充。
@@ -166,6 +167,27 @@ KOJO_DIR = os.path.join(GAME, r"ERB\口上・メッセージ関連\個人口上\
 ```
 
 `ERATW_SOURCE_INDEX.py` 改 `GAME` 一行即可；`EMUERA_KB_SYNC.py` 改 `SRC_DIR`。
+
+### 改完之后自检（VERIFY.py）
+
+手改 `00_core.md` / `09_kojo_framework.md` 之后，跑一次：
+
+```bash
+python VERIFY.py
+```
+
+它会抽出 md 里**所有 ```erb 代码块**，逐行校验三类符号：
+
+| 类型 | 查什么 | 判定依据 |
+|---|---|---|
+| `[VAR]` | `CFLAG:xxx` / `TALENT:xxx` / `TCVAR:xxx` … | `CSV/` 下同名 `.csv` ∪ `.als` 名称表（编号越界也会报） |
+| `[CMD]` | 行首命令 `PRINTFORMD` / `SETCOLOR` … | eraTW 全部 4258 个 ERB 的行首 token ∪ 官方文档命令 |
+| `[FUNC]` | `@xxx` / `CALL xxx` / `TRYCALLFORM xxx` | eraTW 源码里 `@xxx` 的定义 |
+
+结果写到 `VERIFY_REPORT.txt`。首次运行要扫一遍源码（约 30 秒），之后走 `.cache/` 缓存，秒出。
+
+> 报出来的**不一定是错误**：教学示例函数（`@MY_FUNC`、`@TEST`）、占位符（`CALL 函数`）会被自动过滤；
+> 但「故意写错的反例」仍会命中，需人工判断。改完 `--rebuild` 可强制重建源码缓存。
 
 ### 更新到 GitHub（让链接也同步）
 

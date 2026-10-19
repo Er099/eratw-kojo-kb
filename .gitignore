@@ -10,6 +10,10 @@ desktop.ini
 __pycache__/
 *.pyc
 
+# 自检脚本的临时产物
+.cache/
+VERIFY_REPORT.txt
+
 # 不纳入版本管理的游戏文件（体积过大，且与知识库无关）
 eraTW/
 eratw-sub-modding-main/

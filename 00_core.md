@@ -352,6 +352,9 @@ ENDDATA
 | 块内不能变色 | 块内只允许 DATA 系命令，写不了 `SETCOLOR`。要「部分行变色」必须拆成多个块用 `IF` 分流 |
 | 赋值版 | `STRDATA 变量名` … `ENDDATA`：不显示，把选中的字符串塞进变量 |
 
+> **后缀实证**（扫 eraTW 全部 4258 个 ERB，2026-10-19）：`PRINTDATAL` 1260 次、`PRINTDATAW` 935 次、`PRINTDATAD` 519 次；`PRINTDATAK` / `PRINTDATAN` 全库 0 次。
+> 官方文档只给出签名 `PRINTDATA(|K|D)(|L|W)` 并注明「K、D、L、W 的效果与 PRINT 系相同」，没有 `PRINTDATAD` 的字面示例——但源码里用了 519 次，**可放心用**。
+
 示例：
 
 ```erb
@@ -458,7 +461,6 @@ ISASSI(角色)              ; 是否是助手
 ### 4.7 常用系统指令
 
 ```erb
-FIRSTTIME("标签")         ; 每个存档只执行一次（配合 IF 用）
 CALL 函数(参数)
 CALLEVENT 函数
 TRYCALL 函数              ; 函数不存在也不报错（直接跳过）
@@ -471,6 +473,16 @@ SIF 条件                  ; 单行 IF（只作用于下一行）
 > `TRY` 系和 `TRYC` 系的区别：`TRYCALL` 找不到函数就**跳过**；`TRYCCALL` 找不到就**跳到 `CATCH` 块**。eraTW 框架用 `TRYCCALLFORM` 派发口上函数，用 `TRYCALLFORM` 调用可能不存在的可选函数。
 >
 > ⚠️ **Emuera 没有 `CD`（冷却时间）命令**。eraTW 里「该指令有 CD」是各指令用自己的 `CFLAG` 记时间戳实现的，别照抄不存在的语法。
+
+**`FIRSTTIME` 不是 Emuera 命令，是 eraTW 的框架函数**（`COMMON.ERB:312`，带 `#FUNCTION`），用来判断「某个事件在这个角色身上是不是第一次发生」——记录写在角色自己的 `CSTR:FIRSTTIME` 里，所以**每个角色独立计算**，不是「每个存档只执行一次」：
+
+```erb
+IF FIRSTTIME("事件名")            ; 首次为真，之后恒假
+IF FIRSTTIME("事件名", 1)         ; 第 2 参为真 = 只判定不记录（不消耗"首次"）
+IF FIRSTTIME("事件名", 0, -1)     ; 第 3 参指定角色：省略 = TARGET，-1 = MASTER，正数 = 角色编号
+```
+
+> 参数签名 `@FIRSTTIME(ARGS, ARG, ARG:1)`：`ARGS` = 事件编号字符串；`ARG` = 真则不更新判定；`ARG:1` = 角色编号。
 
 ### 4.8 注释与跳过
 

@@ -277,6 +277,7 @@ https://er099.github.io/eratw-kojo-kb/00_core.md?v=2
 | `BUILD.py` | 更新 01/02/03/ALL_IN_ONE 时双击 |
 | `EMUERA_KB_SYNC.py` | Emuera 官方文档更新后跑，刷新 04/05 |
 | `ERATW_SOURCE_INDEX.py` | 游戏本体更新后跑，刷新 06/07/08 |
+| `VERIFY.py` | 手改 00/09 之后跑一次，自动校验代码块里的变量名/命令/函数是否存在 |
 | `PUSH.bat` | 双击推送到 GitHub |
 | `README.md` | 说明文档（就是你正在看的这类） |
 

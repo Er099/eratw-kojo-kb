@@ -449,3 +449,873 @@
 ---
 
 共 387 篇。
+
+
+---
+
+## 附录：命令反查表（858 个命令）
+
+> 索引「名称」列只写文档标题，粒度较粗（例如 `TRYC.zh.md` 的名称是 `TRYC系`，
+> 但它同时讲了 `TRYCALL` / `TRYCCALL` / `TRYCCALLFORM`）。
+> **在主索引里搜不到某个命令时，先查这张表**——只要文档正文里以反引号出现过就会收录。
+
+| 命令 | 所在文档 |
+|---|---|
+| `AAA` | `docs/manual/erawiki-ERBmanual.zh.md` |
+| `ABC` | `docs/manual/erawiki-ERBmanual.zh.md` |
+| `ABL` | `docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Emuera/expression.zh.md`<br>`docs/Emuera/glossary.zh.md` 等 8 篇 |
+| `ABLNAME` | `docs/Emuera/variables.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `ABLUP` | `docs/Emuera/system_flow.zh.md`<br>`docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `ABS` | `docs/Reference/ABS.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 5 篇 |
+| `ACOS` | `docs/Reference/MATH_EXTENSION.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 4 篇 |
+| `ADD` | `docs/tutorial/hello-world.zh.md` |
+| `ADDCHARA` | `docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Emuera/expression.zh.md`<br>`docs/Emuera/glossary.zh.md` 等 13 篇 |
+| `ADDCOPYCHARA` | `docs/Reference/ADDCOPYCHARA.zh.md`<br>`docs/Reference/README.zh.md` |
+| `ADDDEFCHARA` | `docs/Reference/ADDDEFCHARA.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/manual/erawiki-title2.zh.md` 等 4 篇 |
+| `ADDSPCHARA` | `docs/Emuera/expression.zh.md` |
+| `ADDVOIDCHARA` | `docs/Reference/ADDDEFCHARA.zh.md`<br>`docs/Reference/ADDVOIDCHARA.zh.md`<br>`docs/Reference/README.zh.md` 等 5 篇 |
+| `AFTERTRAIN` | `docs/eramaker/system_flow.zh.md` |
+| `ALIGNMENT` | `docs/Emuera/HTML_PRINT.zh.md`<br>`docs/Reference/ALIGNMENT.zh.md`<br>`docs/Reference/HTML_POPPRINTINGSTR.zh.md` 等 9 篇 |
+| `ALLSAMES` | `docs/Reference/GROUPCHECK.zh.md`<br>`docs/Reference/README.zh.md` |
+| `AMOUNT` | `docs/tutorial/variable-declaration.zh.md` |
+| `AND` | `docs/manual/erawiki-modification-QandA.zh.md` |
+| `ANIME` | `docs/Emuera/resources.zh.md`<br>`docs/tutorial/resources.zh.md` |
+| `ARG` | `docs/Emuera/function.zh.md`<br>`docs/Emuera/variables.zh.md`<br>`docs/Reference/ARGLEN.zh.md` 等 12 篇 |
+| `ARGF` | `docs/Reference/ARGLEN.zh.md`<br>`docs/Skia/CHANGELOG.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 6 篇 |
+| `ARGLEN` | `docs/Reference/ARGLEN.zh.md`<br>`docs/Reference/README.zh.md` |
+| `ARGS` | `docs/Emuera/function.zh.md`<br>`docs/Emuera/variables.zh.md`<br>`docs/Reference/ARGLEN.zh.md` 等 11 篇 |
+| `ARRAYCOPY` | `docs/Reference/ARRAYCOPY.zh.md`<br>`docs/Reference/README.zh.md` |
+| `ARRAYMSORT` | `docs/Reference/ARRAYMSORT.zh.md`<br>`docs/Reference/README.zh.md` |
+| `ARRAYMSORTEX` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `ARRAYREMOVE` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Reference/ARRAYREMOVE.zh.md` 等 4 篇 |
+| `ARRAYSHIFT` | `docs/Reference/ARRAYSHIFT.zh.md`<br>`docs/Reference/README.zh.md` |
+| `ARRAYSORT` | `docs/Reference/ARRAYSORT.zh.md`<br>`docs/Reference/README.zh.md` |
+| `ASIN` | `docs/Reference/MATH_EXTENSION.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 4 篇 |
+| `ASSERT` | `docs/Emuera/debug.zh.md`<br>`docs/Reference/ASSERT.zh.md`<br>`docs/Reference/README.zh.md` |
+| `ASSI` | `docs/Emuera/glossary.zh.md`<br>`docs/Emuera/operand.zh.md`<br>`docs/Emuera/user_defined_in_expression_function.zh.md` 等 11 篇 |
+| `ASSIPLAY` | `docs/manual/eratohowiki-ERB-QandA.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `ATAN` | `docs/Reference/MATH_EXTENSION.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 4 篇 |
+| `AWAIT` | `docs/Reference/AWAIT.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/manual/erawiki-ERBmanual.zh.md` 等 4 篇 |
+| `BACK` | `docs/Reference/ARRAYSORT.zh.md`<br>`docs/Reference/SORTCHARA.zh.md` |
+| `BAD_RECURSE` | `docs/tutorial/variable-declaration.zh.md` |
+| `BAR` | `docs/Reference/BAR.zh.md`<br>`docs/Reference/BARSTR.zh.md`<br>`docs/Reference/README.zh.md` 等 4 篇 |
+| `BARL` | `docs/Reference/BAR.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/manual/eratohowiki-ERBmanual.zh.md` |
+| `BARSTR` | `docs/Reference/BARSTR.zh.md`<br>`docs/Reference/README.zh.md` |
+| `BASE` | `docs/Emuera/glossary.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/manual/eratohowiki-ERB-QandA.zh.md` 等 5 篇 |
+| `BASENAME` | `docs/Emuera/variables.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `BBB` | `docs/manual/erawiki-ERBmanual.zh.md` |
+| `BEFORE_ERROR` | `docs/Emuera/system_flow.zh.md`<br>`docs/Skia/CHANGELOG.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 4 篇 |
+| `BEFORE_THROW` | `docs/Emuera/system_flow.zh.md`<br>`docs/Skia/CHANGELOG.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 4 篇 |
+| `BEGIN` | `docs/Emuera/system_flow.zh.md`<br>`docs/Reference/BEGIN.zh.md`<br>`docs/Reference/FORCE_BEGIN.zh.md` 等 8 篇 |
+| `BEGINWORD` | `docs/manual/erawiki-title2.zh.md` |
+| `BGMCONTROL` | `docs/Reference/README.zh.md`<br>`docs/Reference/SOUNDCONTROL.zh.md` |
+| `BINPUT` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Reference/BINPUT.zh.md` 等 6 篇 |
+| `BINPUTS` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Reference/BINPUT.zh.md` 等 4 篇 |
+| `BIT` | `docs/manual/erawiki-ERBmanual.zh.md` |
+| `BITARRAY` | `docs/Skia/Skia_Summary.zh.md` |
+| `BITGET` | `docs/Reference/BITARRAY.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `BITINDEXOFFIRST` | `docs/Reference/BITARRAY.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `BITMAP_CACHE_ENABLE` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Reference/BITMAP_CACHE_ENABLE.zh.md` 等 6 篇 |
+| `BITSET` | `docs/Reference/BITARRAY.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `BITTOGGLE` | `docs/Reference/BITARRAY.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `BOLD` | `docs/Reference/FONT_OPERATION.zh.md`<br>`docs/manual/Emuera-etc.zh.md` |
+| `BOUGHT` | `docs/Emuera/system_flow.zh.md`<br>`docs/tutorial/event-functions.zh.md` |
+| `BREAK` | `docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Reference/CONTINUE.zh.md`<br>`docs/Reference/FOR.zh.md` 等 13 篇 |
+| `BREAKBUTTON` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/BREAKBUTTON.zh.md`<br>`docs/Reference/README.zh.md` 等 4 篇 |
+| `BUFF` | `docs/Skia/CHANGELOG.zh.md` |
+| `CALL` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Emuera/function.zh.md` 等 28 篇 |
+| `CALLEVENT` | `docs/Reference/CALLEVENT.zh.md`<br>`docs/Reference/README.zh.md` |
+| `CALLF` | `docs/Emuera/user_defined_in_expression_function.zh.md`<br>`docs/Reference/CALLF.zh.md`<br>`docs/Reference/README.zh.md` 等 7 篇 |
+| `CALLFORM` | `docs/Emuera/config.zh.md`<br>`docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Reference/CALLSTR.zh.md` 等 11 篇 |
+| `CALLFORMF` | `docs/Emuera/user_defined_in_expression_function.zh.md`<br>`docs/Reference/CALLF.zh.md`<br>`docs/Reference/README.zh.md` 等 4 篇 |
+| `CALLNAME` | `docs/Emuera/config.zh.md`<br>`docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Emuera/expression.zh.md` 等 9 篇 |
+| `CALLSHARP` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Reference/CALLSHARP.zh.md` 等 4 篇 |
+| `CALLSTR` | `docs/Reference/CALLSTR.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 4 篇 |
+| `CALLTRAIN` | `docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Emuera/function.zh.md`<br>`docs/Emuera/system_flow.zh.md` 等 9 篇 |
+| `CASE` | `docs/Reference/README.zh.md`<br>`docs/Reference/SELECTCASE.zh.md`<br>`docs/manual/eratohowiki-ERBmanual.zh.md` 等 8 篇 |
+| `CASEELSE` | `docs/Reference/README.zh.md`<br>`docs/Reference/SELECTCASE.zh.md`<br>`docs/tutorial/jump.zh.md` |
+| `CATCH` | `docs/Reference/CALL.zh.md`<br>`docs/Reference/CALLSTR.zh.md`<br>`docs/Reference/README.zh.md` 等 4 篇 |
+| `CBG` | `docs/Reference/CBGCLEAR.zh.md` |
+| `CBGCLEAR` | `docs/Reference/CBGCLEAR.zh.md`<br>`docs/Reference/README.zh.md` |
+| `CBGCLEARBUTTON` | `docs/Reference/CBGCLEARBUTTON.zh.md`<br>`docs/Reference/README.zh.md` |
+| `CBGREMOVEMAPB` | `docs/Reference/CBGREMOVEMAPB.zh.md`<br>`docs/Reference/README.zh.md` |
+| `CBGREMOVERANGE` | `docs/Reference/CBGREMOVERANGE.zh.md`<br>`docs/Reference/README.zh.md` |
+| `CBGSETBMAPG` | `docs/Reference/CBGREMOVEMAPB.zh.md`<br>`docs/Reference/CBGSETBMAPG.zh.md`<br>`docs/Reference/CBGSETBUTTONSPRITE.zh.md` 等 4 篇 |
+| `CBGSETBUTTONSPRITE` | `docs/Reference/CBGCLEARBUTTON.zh.md`<br>`docs/Reference/CBGREMOVERANGE.zh.md`<br>`docs/Reference/CBGSETBMAPG.zh.md` 等 5 篇 |
+| `CBGSETG` | `docs/Reference/CBGREMOVERANGE.zh.md`<br>`docs/Reference/CBGSETBMAPG.zh.md`<br>`docs/Reference/CBGSETG.zh.md` 等 4 篇 |
+| `CBGSETSPRITE` | `docs/Reference/CBGREMOVERANGE.zh.md`<br>`docs/Reference/CBGSETBUTTONSPRITE.zh.md`<br>`docs/Reference/CBGSETSPRITE.zh.md` 等 7 篇 |
+| `CBRT` | `docs/Reference/MATH_EXTENSION.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `CCC` | `docs/manual/erawiki-ERBmanual.zh.md` |
+| `CDFLAG` | `docs/Emuera/glossary.zh.md`<br>`docs/Emuera/variables.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `CDFLAGNAME1` | `docs/tutorial/character-variables.zh.md` |
+| `CDFLAGNAME2` | `docs/tutorial/character-variables.zh.md` |
+| `CDOWN` | `docs/Emuera/variables.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `CEIL` | `docs/Reference/MATH_EXTENSION.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 4 篇 |
+| `CENTER` | `docs/Reference/ALIGNMENT.zh.md` |
+| `CFLAG` | `docs/Emuera/config.zh.md`<br>`docs/Emuera/user_defined_variables.zh.md`<br>`docs/Emuera/variables.zh.md` 等 17 篇 |
+| `CFLAGNAME` | `docs/Emuera/variables.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `CHARADATA` | `docs/Emuera/ERH.zh.md`<br>`docs/manual/erawiki-ERBmanual.zh.md`<br>`docs/tutorial/variable-declaration.zh.md` |
+| `CHARANUM` | `docs/Emuera/variables.zh.md`<br>`docs/Reference/CARRAY.zh.md`<br>`docs/Reference/LOADCHARA.zh.md` 等 6 篇 |
+| `CHARATU` | `docs/Reference/CHARATU.zh.md`<br>`docs/Reference/README.zh.md` |
+| `CHKCHARADATA` | `docs/Reference/CHKCHARADATA.zh.md`<br>`docs/Reference/LOADCHARA.zh.md`<br>`docs/Reference/README.zh.md` 等 4 篇 |
+| `CHKDATA` | `docs/Reference/CHKDATA.zh.md`<br>`docs/Reference/LOADDATA.zh.md`<br>`docs/Reference/README.zh.md` 等 5 篇 |
+| `CHKFONT` | `docs/Reference/README.zh.md`<br>`docs/Reference/SETFONT.zh.md` |
+| `CLEAR` | `docs/manual/erawiki-ERBmanual.zh.md` |
+| `CLEARBGIMAGE` | `docs/Reference/BACKGROUND.zh.md`<br>`docs/Reference/README.zh.md` |
+| `CLEARBIT` | `docs/Reference/BIT_OPERATION.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/manual/Emuera-etc.zh.md` 等 5 篇 |
+| `CLEARIMAGELAYER` | `docs/Reference/CLEARIMAGELAYER.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `CLEARIMAGELAYER_ALL` | `docs/Reference/CLEARIMAGELAYER.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/SETIMAGELAYER.zh.md` 等 5 篇 |
+| `CLEARLINE` | `docs/Emuera/HTML_PRINT.zh.md`<br>`docs/Emuera/variables.zh.md`<br>`docs/Reference/CLEARLINE.zh.md` 等 6 篇 |
+| `CLEARMEMORY` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `CLEARTEXTBOX` | `docs/Reference/CLEARTEXTBOX.zh.md`<br>`docs/Reference/README.zh.md` |
+| `CLIENTHEIGHT` | `docs/Reference/CLIENTFIELD.zh.md`<br>`docs/Reference/MOUSEXY.zh.md`<br>`docs/Reference/README.zh.md` |
+| `CLIENTWIDTH` | `docs/Reference/CLIENTFIELD.zh.md`<br>`docs/Reference/MOUSEXY.zh.md`<br>`docs/Reference/README.zh.md` |
+| `CMATCH` | `docs/Reference/CARRAY.zh.md`<br>`docs/Reference/README.zh.md` |
+| `CM_ARRAY` | `docs/Skia/Skia_Summary.zh.md` |
+| `CNT` | `docs/manual/erawiki-modification-QandA.zh.md` |
+| `COLOR` | `docs/Emuera/HTML_PRINT.zh.md`<br>`docs/tutorial/html-syntax.zh.md` |
+| `COLOR_FROMNAME` | `docs/Reference/COLOR_FROM.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/TOOLTIP_SETCOLOR.zh.md` 等 4 篇 |
+| `COLOR_FROMRGB` | `docs/Reference/COLOR_FROM.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/TOOLTIP_SETCOLOR.zh.md` |
+| `COM0` | `docs/Emuera/differences_of_Emuera_and_eramaker.zh.md` |
+| `CONST` | `docs/Emuera/ERH.zh.md`<br>`docs/Emuera/user_defined_variables.zh.md`<br>`docs/tutorial/erb-format-extension.zh.md` 等 4 篇 |
+| `CONTINUE` | `docs/Reference/CONTINUE.zh.md`<br>`docs/Reference/DO.zh.md`<br>`docs/Reference/FOR.zh.md` 等 10 篇 |
+| `CONVERT` | `docs/Reference/CONVERT.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/manual/erawiki-modification-QandA.zh.md` |
+| `COPYCHARA` | `docs/Reference/COPYCHARA.zh.md`<br>`docs/Reference/README.zh.md` |
+| `COS` | `docs/Reference/MATH_EXTENSION.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 4 篇 |
+| `COUNT` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 12 篇 |
+| `CSTR` | `docs/Emuera/variables.zh.md`<br>`docs/Reference/VARSET.zh.md`<br>`docs/eramaker/CSV_format.zh.md` 等 6 篇 |
+| `CSTRNAME` | `docs/Emuera/variables.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `CSV` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 7 篇 |
+| `CSVABL` | `docs/Reference/CSV_STATUS.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/manual/erawiki-modification-QandA.zh.md` 等 4 篇 |
+| `CSVBASE` | `docs/Reference/CSV_STATUS.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/tutorial/dynamic-reflection.zh.md` |
+| `CSVCALLNAME` | `docs/Reference/CSVNAME.zh.md`<br>`docs/Reference/README.zh.md` |
+| `CSVCFLAG` | `docs/Reference/CSV_STATUS.zh.md`<br>`docs/Reference/README.zh.md` |
+| `CSVCSTR` | `docs/Reference/CSV_STATUS.zh.md`<br>`docs/Reference/README.zh.md` |
+| `CSVEQUIP` | `docs/Reference/CSV_STATUS.zh.md`<br>`docs/Reference/README.zh.md` |
+| `CSVEXP` | `docs/Reference/CSV_STATUS.zh.md`<br>`docs/Reference/README.zh.md` |
+| `CSVJUEL` | `docs/Reference/CSV_STATUS.zh.md`<br>`docs/Reference/README.zh.md` |
+| `CSVMARK` | `docs/Reference/CSV_STATUS.zh.md`<br>`docs/Reference/README.zh.md` |
+| `CSVMASTERNAME` | `docs/Reference/CSVNAME.zh.md`<br>`docs/Reference/README.zh.md` |
+| `CSVNAME` | `docs/Reference/CSVNAME.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/manual/erawiki-modification-QandA.zh.md` 等 4 篇 |
+| `CSVNICKNAME` | `docs/Reference/CSVNAME.zh.md`<br>`docs/Reference/README.zh.md` |
+| `CSVRELATION` | `docs/Reference/CSV_STATUS.zh.md`<br>`docs/Reference/README.zh.md` |
+| `CSVTALENT` | `docs/Reference/CSV_STATUS.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/tutorial/dynamic-reflection.zh.md` |
+| `CS_INT_ARRAY` | `docs/Emuera/ERH.zh.md` |
+| `CUP` | `docs/Emuera/variables.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `CUPCHECK` | `docs/Emuera/variables.zh.md`<br>`docs/Reference/CUPCHECK.zh.md`<br>`docs/Reference/README.zh.md` 等 5 篇 |
+| `CURRENTALIGHN` | `docs/Reference/ALIGNMENT.zh.md` |
+| `CURRENTALIGN` | `docs/Reference/ALIGNMENT.zh.md`<br>`docs/Reference/README.zh.md` |
+| `CURRENTREDRAW` | `docs/Reference/README.zh.md`<br>`docs/Reference/REDRAW.zh.md` |
+| `CUSTOMDRAWLINE` | `docs/Reference/CUSTOMDRAWLINE.zh.md`<br>`docs/Reference/GETLINESTR.zh.md`<br>`docs/Reference/README.zh.md` 等 5 篇 |
+| `CVARSET` | `docs/Reference/CVARSET.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/CHANGELOG.zh.md` 等 4 篇 |
+| `C_INT_ARRAY` | `docs/Emuera/ERH.zh.md` |
+| `C_STR_ARRAY` | `docs/Emuera/ERH.zh.md` |
+| `DATA` | `docs/Reference/PRINTDATA.zh.md`<br>`docs/manual/erawiki-ERBmanual.zh.md`<br>`docs/tutorial/basic-output.zh.md` |
+| `DATAFORM` | `docs/Reference/PRINTDATA.zh.md` |
+| `DATALIST` | `docs/Reference/PRINTDATA.zh.md` |
+| `DAY` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 6 篇 |
+| `DAYNAME` | `docs/EMEE/EMEE_Summary.zh.md` |
+| `DEBUG` | `docs/Emuera/expression.zh.md`<br>`docs/Emuera/function.zh.md`<br>`docs/Reference/ASSERT.zh.md` 等 5 篇 |
+| `DEBUGCLEAR` | `docs/Emuera/debug.zh.md`<br>`docs/Reference/DEBUGPRINT.zh.md`<br>`docs/Reference/README.zh.md` |
+| `DEBUGPRINT` | `docs/Emuera/debug.zh.md`<br>`docs/Reference/DEBUGPRINT.zh.md`<br>`docs/Reference/README.zh.md` 等 5 篇 |
+| `DEBUGPRINTFORM` | `docs/Emuera/debug.zh.md`<br>`docs/Reference/DEBUGPRINT.zh.md`<br>`docs/Reference/README.zh.md` |
+| `DEBUGPRINTFORML` | `docs/Emuera/debug.zh.md`<br>`docs/Reference/DEBUGPRINT.zh.md`<br>`docs/Reference/README.zh.md` 等 4 篇 |
+| `DEBUGPRINTL` | `docs/Emuera/debug.zh.md`<br>`docs/Reference/DEBUGPRINT.zh.md`<br>`docs/Reference/README.zh.md` |
+| `DEFAULT` | `docs/Reference/DT_COLUMN.zh.md` |
+| `DEFINE` | `docs/Emuera/ERH.zh.md` |
+| `DELALLCHARA` | `docs/Reference/DELALLCHARA.zh.md`<br>`docs/Reference/README.zh.md` |
+| `DELCHARA` | `docs/Emuera/glossary.zh.md`<br>`docs/Emuera/variables.zh.md`<br>`docs/Reference/CLEARMEMORY.zh.md` 等 7 篇 |
+| `DELDATA` | `docs/Reference/DELDATA.zh.md`<br>`docs/Reference/README.zh.md` |
+| `DIM` | `docs/Emuera/user_defined_variables.zh.md`<br>`docs/manual/erawiki-ERBmanual.zh.md`<br>`docs/manual/erawiki-title2.zh.md` 等 5 篇 |
+| `DISABLE_INPUT_MACRO` | `docs/Reference/DISABLE_INPUT_MACRO.zh.md`<br>`docs/Reference/ENABLE_INPUT_MACRO.zh.md`<br>`docs/Reference/README.zh.md` 等 4 篇 |
+| `DISPLAY_COMMON` | `docs/manual/erawiki-modification-QandA.zh.md` |
+| `DITEMTYPE` | `docs/Emuera/variables.zh.md`<br>`docs/Reference/VARSET.zh.md`<br>`docs/Reference/VARSIZE.zh.md` |
+| `DITEMYTPE` | `docs/Emuera/glossary.zh.md` |
+| `DOTRAIN` | `docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Reference/DOTRAIN.zh.md`<br>`docs/Reference/README.zh.md` |
+| `DOWN` | `docs/Emuera/system_flow.zh.md`<br>`docs/Emuera/variables.zh.md`<br>`docs/Reference/DOTRAIN.zh.md` 等 5 篇 |
+| `DOWNBASE` | `docs/Emuera/variables.zh.md`<br>`docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `DRAWLINE` | `docs/Emuera/config.zh.md`<br>`docs/Emuera/variables.zh.md`<br>`docs/Reference/DRAWLINE.zh.md` 等 7 篇 |
+| `DRAWLINEFORM` | `docs/Reference/CUSTOMDRAWLINE.zh.md`<br>`docs/Reference/GETLINESTR.zh.md`<br>`docs/Reference/README.zh.md` 等 5 篇 |
+| `DRAWLINESTR` | `docs/Emuera/variables.zh.md` |
+| `DT_CELL_GET` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/DT_CELL.zh.md`<br>`docs/Reference/README.zh.md` |
+| `DT_CELL_GETF` | `docs/Reference/DT_CELL.zh.md`<br>`docs/Reference/README.zh.md` |
+| `DT_CELL_GETS` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `DT_CELL_ISNULL` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/DT_CELL.zh.md`<br>`docs/Reference/README.zh.md` |
+| `DT_CELL_SET` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/DT_CELL.zh.md`<br>`docs/Reference/README.zh.md` |
+| `DT_CLEAR` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/DT_MANAGE.zh.md`<br>`docs/Reference/README.zh.md` |
+| `DT_COLUMN_ADD` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/DT_COLUMN.zh.md`<br>`docs/Reference/README.zh.md` |
+| `DT_COLUMN_EXIST` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/DT_COLUMN.zh.md`<br>`docs/Reference/README.zh.md` |
+| `DT_COLUMN_LENGTH` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/DT_COLUMN.zh.md`<br>`docs/Reference/README.zh.md` |
+| `DT_COLUMN_NAMES` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Reference/DT_COLUMN.zh.md` 等 4 篇 |
+| `DT_COLUMN_OPTIONS` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `DT_COLUMN_REMOVE` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/DT_COLUMN.zh.md`<br>`docs/Reference/README.zh.md` |
+| `DT_CREATE` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/DT_MANAGE.zh.md`<br>`docs/Reference/README.zh.md` |
+| `DT_EXIST` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/DT_MANAGE.zh.md`<br>`docs/Reference/README.zh.md` |
+| `DT_FROMXML` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `DT_NOCASE` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/DT_MANAGE.zh.md`<br>`docs/Reference/README.zh.md` |
+| `DT_RELEASE` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/DT_MANAGE.zh.md`<br>`docs/Reference/README.zh.md` |
+| `DT_ROW_ADD` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/DT_ROW.zh.md`<br>`docs/Reference/README.zh.md` |
+| `DT_ROW_LENGTH` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/DT_ROW.zh.md`<br>`docs/Reference/README.zh.md` |
+| `DT_ROW_REMOVE` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/DT_ROW.zh.md`<br>`docs/Reference/README.zh.md` |
+| `DT_ROW_SET` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/DT_ROW.zh.md`<br>`docs/Reference/README.zh.md` |
+| `DT_SELECT` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/DT_MANAGE.zh.md`<br>`docs/Reference/DT_SELECT.zh.md` 等 4 篇 |
+| `DT_TOXML` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `DUMPRAND` | `docs/Emuera/variables.zh.md`<br>`docs/Reference/RANDOMIZE.zh.md`<br>`docs/Reference/README.zh.md` 等 4 篇 |
+| `DYNAMIC` | `docs/Emuera/ERH.zh.md`<br>`docs/Emuera/user_defined_variables.zh.md`<br>`docs/Reference/RESTART.zh.md` 等 6 篇 |
+| `EJAC` | `docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `ELSE` | `docs/Reference/IF.zh.md`<br>`docs/Reference/TRY.zh.md`<br>`docs/manual/eratohowiki-ERBmanual.zh.md` 等 7 篇 |
+| `ELSEIF` | `docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Reference/IF.zh.md`<br>`docs/Reference/TRY.zh.md` 等 8 篇 |
+| `ENABLE_INPUT_MACRO` | `docs/Reference/DISABLE_INPUT_MACRO.zh.md`<br>`docs/Reference/ENABLE_INPUT_MACRO.zh.md`<br>`docs/Reference/README.zh.md` 等 4 篇 |
+| `ENCODETOUNI` | `docs/Reference/README.zh.md`<br>`docs/Reference/UNICODE.zh.md` |
+| `ENDCATCH` | `docs/Reference/README.zh.md`<br>`docs/Reference/TRYC.zh.md` |
+| `ENDDATA` | `docs/Reference/PRINTDATA.zh.md` |
+| `ENDFUNC` | `docs/Reference/README.zh.md`<br>`docs/Reference/TRYLIST.zh.md` |
+| `ENDIF` | `docs/Reference/IF.zh.md`<br>`docs/Reference/TRY.zh.md`<br>`docs/manual/eratohowiki-ERBmanual.zh.md` 等 8 篇 |
+| `ENDLIST` | `docs/Reference/PRINTDATA.zh.md` |
+| `ENDNOSKIP` | `docs/Reference/README.zh.md`<br>`docs/Reference/SKIP_RELATE.zh.md` |
+| `ENDSELECT` | `docs/Reference/README.zh.md`<br>`docs/Reference/SELECTCASE.zh.md`<br>`docs/manual/erawiki-modification-QandA.zh.md` 等 5 篇 |
+| `ENUMFILES` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `ENUMFUNCBEGINSWITH` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/ENUMFUNC.zh.md`<br>`docs/Reference/README.zh.md` |
+| `ENUMFUNCENDSWITH` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/ENUMFUNC.zh.md`<br>`docs/Reference/README.zh.md` |
+| `ENUMFUNCWITH` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/ENUMFUNC.zh.md`<br>`docs/Reference/README.zh.md` |
+| `ENUMMACROBEGINSWITH` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/ENUMMACRO.zh.md`<br>`docs/Reference/README.zh.md` |
+| `ENUMMACROENDSWITH` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/ENUMMACRO.zh.md`<br>`docs/Reference/README.zh.md` |
+| `ENUMMACROWITH` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/ENUMMACRO.zh.md`<br>`docs/Reference/README.zh.md` |
+| `ENUMVARBEGINSWITH` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/ENUMVAR.zh.md`<br>`docs/Reference/README.zh.md` |
+| `ENUMVARENDSWITH` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/ENUMVAR.zh.md`<br>`docs/Reference/README.zh.md` |
+| `ENUMVARWITH` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/ENUMVAR.zh.md`<br>`docs/Reference/README.zh.md` |
+| `EQUIP` | `docs/eramaker/CSV_format.zh.md`<br>`docs/manual/eratohowiki-ERB-QandA.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `EQUIPNAME` | `docs/Emuera/variables.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `ERB` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Emuera/user_defined_variables.zh.md`<br>`docs/tutorial/variable-declaration.zh.md` |
+| `ERD` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 4 篇 |
+| `ERDNAME` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 7 篇 |
+| `ERH` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Emuera/user_defined_variables.zh.md`<br>`docs/manual/erawiki-modification-QandA.zh.md` |
+| `ESCAPE` | `docs/Reference/ESCAPE.zh.md`<br>`docs/Reference/README.zh.md` |
+| `EVAL` | `docs/Reference/EVAL.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 5 篇 |
+| `EVALF` | `docs/Reference/EVAL.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/tutorial/call.zh.md` 等 4 篇 |
+| `EVALS` | `docs/Reference/EVAL.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 5 篇 |
+| `EVENT` | `docs/Emuera/glossary.zh.md` |
+| `EVENTBUY` | `docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `EVENTCOM` | `docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `EVENTCOMEND` | `docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `EVENTEND` | `docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `EVENTFIRST` | `docs/eramaker/system_flow.zh.md`<br>`docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `EVENTLOAD` | `docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `EVENTSHOP` | `docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `EVENTTRAIN` | `docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `EVENTTURNEND` | `docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `EXISTCSV` | `docs/Reference/EXISTCSV.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/manual/erawiki-modification-QandA.zh.md` |
+| `EXISTFILE` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `EXISTFUNCTION` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `EXISTMETH` | `docs/Reference/EXISTMETH.zh.md`<br>`docs/Reference/README.zh.md` |
+| `EXISTSIMAGELAYER` | `docs/Reference/EXISTSIMAGELAYER.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `EXISTSOUND` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `EXISTVAR` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 8 篇 |
+| `EXIST_IN_CSV` | `docs/Skia/CHANGELOG.zh.md` |
+| `EXIST_IN_ERD` | `docs/Skia/CHANGELOG.zh.md` |
+| `EXNAME` | `docs/Emuera/variables.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `EXP` | `docs/Emuera/glossary.zh.md`<br>`docs/Skia/Skia_Summary.zh.md`<br>`docs/eramaker/CSV_format.zh.md` 等 6 篇 |
+| `EXPLV` | `docs/Emuera/replace.zh.md`<br>`docs/Reference/GETPALAMLV.zh.md` |
+| `EXPNAME` | `docs/Emuera/variables.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `EXPOMENT` | `docs/Reference/MATH_EXTENSION.zh.md`<br>`docs/Reference/README.zh.md` |
+| `FINDCHARA` | `docs/Emuera/in_expression_function.zh.md`<br>`docs/Reference/FINDCHARA.zh.md`<br>`docs/Reference/README.zh.md` 等 5 篇 |
+| `FINDELEMENT` | `docs/Reference/FINDELEMENT.zh.md`<br>`docs/Reference/README.zh.md` |
+| `FINDLASTCHARA` | `docs/Reference/FINDCHARA.zh.md`<br>`docs/Reference/README.zh.md` |
+| `FINDLASTELEMENT` | `docs/Reference/FINDELEMENT.zh.md`<br>`docs/Reference/README.zh.md` |
+| `FIND_CHARADATA` | `docs/Reference/FIND_CHARADATA.zh.md`<br>`docs/Reference/README.zh.md` |
+| `FIRST` | `docs/Emuera/system_flow.zh.md`<br>`docs/Reference/BEGIN.zh.md` |
+| `FIVE` | `docs/Emuera/ERH.zh.md` |
+| `FLAG` | `docs/Reference/VARSET.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/manual/eratohowiki-ERBmanual.zh.md` 等 7 篇 |
+| `FLAGNAME` | `docs/Emuera/variables.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `FLAN_LETTERBOX_FRAME` | `docs/tutorial/html-syntax.zh.md` |
+| `FLAN_TEXT_BLOCK` | `docs/tutorial/html-syntax.zh.md` |
+| `FLOAT` | `docs/Skia/CHANGELOG.zh.md` |
+| `FLOOR` | `docs/Reference/MATH_EXTENSION.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 4 篇 |
+| `FLOWINPUT` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Reference/FLOWINPUT.zh.md` 等 4 篇 |
+| `FLOWINPUTS` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Reference/FLOWINPUT.zh.md` 等 4 篇 |
+| `FONTBOLD` | `docs/Reference/FONT_OPERATION.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/CHANGELOG.zh.md` 等 4 篇 |
+| `FONTITALIC` | `docs/Reference/FONT_OPERATION.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/CHANGELOG.zh.md` 等 4 篇 |
+| `FONTREGULAR` | `docs/Reference/FONT_OPERATION.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/CHANGELOG.zh.md` 等 4 篇 |
+| `FONTSTYLE` | `docs/Emuera/HTML_PRINT.zh.md`<br>`docs/Reference/FONT_OPERATION.zh.md`<br>`docs/Reference/HTML_PRINT.zh.md` 等 10 篇 |
+| `FOR` | `docs/Reference/CONTINUE.zh.md`<br>`docs/Reference/FOR.zh.md`<br>`docs/Reference/README.zh.md` 等 11 篇 |
+| `FORCEKANA` | `docs/Reference/FORCEKANA.zh.md`<br>`docs/Reference/PRINT.zh.md`<br>`docs/Reference/README.zh.md` |
+| `FORCEWAIT` | `docs/Reference/FORCEWAIT.zh.md`<br>`docs/Reference/README.zh.md` |
+| `FORCE_BEGIN` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `FORCE_QUIT` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `FORCE_QUIT_AND_RESTART` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `FORM` | `docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Emuera/expression.zh.md`<br>`docs/Reference/PRINTC.zh.md` 等 9 篇 |
+| `FORM_STR` | `docs/tutorial/basic-output.zh.md` |
+| `FORM_STR_ANY` | `docs/Reference/BACKGROUND.zh.md`<br>`docs/Skia/CHANGELOG.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 5 篇 |
+| `FORM_STR_NULLABLE` | `docs/tutorial/basic-output.zh.md` |
+| `FORWARD` | `docs/Reference/ARRAYSORT.zh.md`<br>`docs/Reference/SORTCHARA.zh.md` |
+| `FUNC` | `docs/Reference/README.zh.md`<br>`docs/Reference/TRYLIST.zh.md` |
+| `FUNCEXIST` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md` |
+| `GAMEBASE_GAMECODE` | `docs/Emuera/differences_of_Emuera_and_eramaker.zh.md` |
+| `GAMEBASE_VERSION` | `docs/manual/erawiki-title2.zh.md` |
+| `GCLEAR` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `GCREATE` | `docs/Reference/GCREATE.zh.md`<br>`docs/Reference/GGETBRUSH.zh.md`<br>`docs/Reference/GGETFONT.zh.md` 等 7 篇 |
+| `GCREATED` | `docs/Reference/GCREATED.zh.md`<br>`docs/Reference/README.zh.md` |
+| `GCREATEFORMFILE` | `docs/Reference/GSAVELOAD.zh.md` |
+| `GCREATEFROMFILE` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Emuera/resources.zh.md` 等 8 篇 |
+| `GDASHSTYLE` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Reference/GDASHSTYLE.zh.md` 等 4 篇 |
+| `GDI` | `docs/Emuera/resources.zh.md` |
+| `GDISPOSE` | `docs/Emuera/resources.zh.md`<br>`docs/Reference/GCREATE.zh.md`<br>`docs/Reference/GDISPOSE.zh.md` 等 7 篇 |
+| `GDRAWG` | `docs/Reference/GDRAWG.zh.md`<br>`docs/Reference/README.zh.md` |
+| `GDRAWGWITHMASK` | `docs/Reference/GDRAWGWITHMASK.zh.md`<br>`docs/Reference/README.zh.md` |
+| `GDRAWGWITHROTATE` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `GDRAWLINE` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Reference/GDRAWLINE.zh.md` 等 5 篇 |
+| `GDRAWSPRITE` | `docs/Reference/GDRAWSPRITE.zh.md`<br>`docs/Reference/README.zh.md` |
+| `GDRAWTEXT` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 8 篇 |
+| `GET` | `docs/Reference/GETSETVAR.zh.md`<br>`docs/manual/erawiki-ERBmanual.zh.md` |
+| `GETANIMETIMER` | `docs/Reference/README.zh.md`<br>`docs/Reference/SETANIMETIMER.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `GETBGCOLOR` | `docs/Reference/GETCOLOR.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/SETBGCOLOR.zh.md` |
+| `GETBIT` | `docs/Reference/BIT_OPERATION.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/manual/Emuera-etc.zh.md` 等 5 篇 |
+| `GETCHARA` | `docs/Reference/GETCHARA.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/manual/erawiki-modification-QandA.zh.md` 等 5 篇 |
+| `GETCOLOR` | `docs/Reference/GETCOLOR.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/SETCOLOR.zh.md` |
+| `GETCONFIG` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Reference/GETCONFIG.zh.md` 等 4 篇 |
+| `GETCONFIGS` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Reference/GETCONFIG.zh.md` 等 4 篇 |
+| `GETCSVNOBYCALLNAME` | `docs/Reference/GETCSVNOBY.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `GETCSVNOBYMASTERNAME` | `docs/Reference/GETCSVNOBY.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `GETCSVNOBYNAME` | `docs/Reference/GETCSVNOBY.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `GETCSVNOBYNICKNAME` | `docs/Reference/GETCSVNOBY.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `GETDEFBGCOLOR` | `docs/Reference/GETCOLOR.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/SETBGCOLOR.zh.md` |
+| `GETDEFCOLOR` | `docs/Reference/GETCOLOR.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/SETCOLOR.zh.md` |
+| `GETDISPLAYLINE` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Reference/GETDISPLAYLINE.zh.md` 等 6 篇 |
+| `GETDOINGFUNCTION` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Reference/GETDOINGFUNCTION.zh.md` 等 4 篇 |
+| `GETEXPLV` | `docs/Reference/GETPALAMLV.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/tutorial/dynamic-reflection.zh.md` |
+| `GETFOCUSCOLOR` | `docs/Reference/GETCOLOR.zh.md`<br>`docs/Reference/README.zh.md` |
+| `GETFONT` | `docs/Reference/README.zh.md`<br>`docs/Reference/SETFONT.zh.md` |
+| `GETKEY` | `docs/Reference/GETKEY.zh.md`<br>`docs/Reference/INPUTMOUSEKEY.zh.md`<br>`docs/Reference/README.zh.md` |
+| `GETKEYTRIGGERD` | `docs/Reference/GETKEY.zh.md` |
+| `GETKEYTRIGGERED` | `docs/Reference/GETKEY.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/CHANGELOG.zh.md` |
+| `GETLINESTR` | `docs/Reference/GETLINESTR.zh.md`<br>`docs/Reference/README.zh.md` |
+| `GETLINEY` | `docs/Reference/GETLINEY.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/SETIMAGELAYER.zh.md` 等 5 篇 |
+| `GETMEMORYUSAGE` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 4 篇 |
+| `GETMETH` | `docs/Reference/GETMETH.zh.md`<br>`docs/Reference/README.zh.md` |
+| `GETMETHF` | `docs/Reference/GETMETH.zh.md`<br>`docs/Reference/README.zh.md` |
+| `GETMETHS` | `docs/Reference/GETMETH.zh.md`<br>`docs/Reference/README.zh.md` |
+| `GETMILLISECOND` | `docs/Reference/GETMILLISECOND.zh.md`<br>`docs/Reference/README.zh.md` |
+| `GETNUM` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 11 篇 |
+| `GETNUMB` | `docs/Reference/MATCHALL.zh.md` |
+| `GETPALAMLV` | `docs/Reference/GETPALAMLV.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/tutorial/dynamic-reflection.zh.md` |
+| `GETPLATFORM` | `docs/Reference/GETPLATFORM.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `GETSECOND` | `docs/Reference/GETSECOND.zh.md`<br>`docs/Reference/README.zh.md` |
+| `GETSOUNDORBGMINFO` | `docs/Reference/README.zh.md`<br>`docs/Reference/SOUNDCONTROL.zh.md` |
+| `GETSTYLE` | `docs/Reference/FONT_OPERATION.zh.md`<br>`docs/Reference/README.zh.md` |
+| `GETTEXTBOX` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `GETTIME` | `docs/Reference/GETTIME.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/tutorial/constant-folding.zh.md` |
+| `GETVAR` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/GETSETVAR.zh.md`<br>`docs/Reference/README.zh.md` 等 5 篇 |
+| `GETVARF` | `docs/Reference/GETSETVAR.zh.md`<br>`docs/Reference/README.zh.md` |
+| `GETVARS` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/GETSETVAR.zh.md`<br>`docs/Reference/README.zh.md` 等 4 篇 |
+| `GET_ASSI_CFLAG` | `docs/Emuera/user_defined_in_expression_function.zh.md` |
+| `GET_SKIA_QUALITY` | `docs/Reference/README.zh.md`<br>`docs/Reference/SKIA_RENDER.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `GET_TEXT_DRAWING_MODE` | `docs/Reference/README.zh.md`<br>`docs/Reference/SKIA_RENDER.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `GFILLRECTANGLE` | `docs/Reference/GFILLRECTANGLE.zh.md`<br>`docs/Reference/GSETBRUSH.zh.md`<br>`docs/Reference/README.zh.md` |
+| `GGETBRUSH` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 7 篇 |
+| `GGETCOLOR` | `docs/Reference/GGETCOLOR.zh.md`<br>`docs/Reference/GSETCOLOR.zh.md`<br>`docs/Reference/README.zh.md` |
+| `GGETFONT` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 6 篇 |
+| `GGETFONTSIZE` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 6 篇 |
+| `GGETFONTSTYLE` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/GGETFONTSTYLE.zh.md`<br>`docs/Reference/README.zh.md` |
+| `GGETPEN` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 7 篇 |
+| `GGETPENWIDTH` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 7 篇 |
+| `GGETTEXTSIZE` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `GHEIGHT` | `docs/Reference/GWIDTHHEIGHT.zh.md`<br>`docs/Reference/README.zh.md` |
+| `GLOAD` | `docs/Reference/GSAVELOAD.zh.md`<br>`docs/Reference/README.zh.md` |
+| `GLOBAL` | `docs/Emuera/ERH.zh.md`<br>`docs/Emuera/user_defined_variables.zh.md`<br>`docs/Emuera/variables.zh.md` 等 8 篇 |
+| `GLOBALNAME` | `docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `GLOBALS` | `docs/Emuera/variables.zh.md`<br>`docs/Reference/LOADGLOBAL.zh.md`<br>`docs/Reference/SAVEGLOBAL.zh.md` 等 6 篇 |
+| `GLOBALSNAME` | `docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `GOTJUEL` | `docs/Emuera/system_flow.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `GOTJUELP` | `docs/Emuera/system_flow.zh.md` |
+| `GOTO` | `docs/Reference/DO.zh.md`<br>`docs/Reference/FOR.zh.md`<br>`docs/Reference/FORM.zh.md` 等 18 篇 |
+| `GOTOFORM` | `docs/Reference/FORM.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/tutorial/form-syntax.zh.md` 等 4 篇 |
+| `GRAPHICS` | `docs/Emuera/config.zh.md` |
+| `GREET` | `docs/tutorial/hello-world.zh.md` |
+| `GROUPMATCH` | `docs/Reference/GROUPCHECK.zh.md`<br>`docs/Reference/README.zh.md` |
+| `GSAVE` | `docs/Reference/GSAVELOAD.zh.md`<br>`docs/Reference/README.zh.md` |
+| `GSETBRUSH` | `docs/Reference/GFILLRECTANGLE.zh.md`<br>`docs/Reference/GGETBRUSH.zh.md`<br>`docs/Reference/GSETBRUSH.zh.md` 等 4 篇 |
+| `GSETCOLOR` | `docs/Reference/GSETCOLOR.zh.md`<br>`docs/Reference/README.zh.md` |
+| `GSETFONT` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 10 篇 |
+| `GSETPEN` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Reference/GDRAWLINE.zh.md` 等 8 篇 |
+| `GWIDTH` | `docs/Reference/GWIDTHHEIGHT.zh.md`<br>`docs/Reference/README.zh.md` |
+| `G_POLYGON` | `docs/Skia/Skia_Summary.zh.md` |
+| `G_POLYGON_DRAW` | `docs/Reference/G_POLYGON.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `G_POLYGON_FILL` | `docs/Reference/G_POLYGON.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `G_POLYGON_POINT_ADD` | `docs/Reference/G_POLYGON.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `G_POLYGON_POINT_CLEAR` | `docs/Reference/G_POLYGON.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `HOGE` | `docs/Emuera/function.zh.md`<br>`docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `HOTKEY_STATE` | `docs/Reference/HOTKEY_STATE.zh.md`<br>`docs/Reference/README.zh.md` |
+| `HOTKEY_STATE_INIT` | `docs/Reference/HOTKEY_STATE.zh.md`<br>`docs/Reference/README.zh.md` |
+| `HOVER_PAUSE` | `docs/tutorial/interaction.zh.md` |
+| `HTML_ESCAPE` | `docs/Reference/HTML_ESCAPE.zh.md`<br>`docs/Reference/README.zh.md` |
+| `HTML_GETPRINTEDSTR` | `docs/Reference/HTML_GETPRINTEDSTR.zh.md`<br>`docs/Reference/README.zh.md` |
+| `HTML_POPPRINTINGSTR` | `docs/Reference/HTML_POPPRINTINGSTR.zh.md`<br>`docs/Reference/README.zh.md` |
+| `HTML_PRINT` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 21 篇 |
+| `HTML_PRINTC` | `docs/Reference/HTML_PRINTC.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `HTML_PRINTL` | `docs/tutorial/html-syntax.zh.md` |
+| `HTML_PRINTLC` | `docs/Reference/HTML_PRINTC.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `HTML_PRINT_ISLAND` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Reference/HTML_PRINT_ISLAND.zh.md` 等 4 篇 |
+| `HTML_PRINT_ISLAND_CLEAR` | `docs/Reference/HTML_PRINT_ISLAND.zh.md`<br>`docs/Reference/README.zh.md` |
+| `HTML_STRINGLEN` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 6 篇 |
+| `HTML_STRINGLINES` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Reference/HTML_STRINGLINES.zh.md` 等 4 篇 |
+| `HTML_SUBSTRING` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `HTML_TAGSPLIT` | `docs/Reference/HTML_TAGSPLIT.zh.md`<br>`docs/Reference/README.zh.md` |
+| `HTML_TOPLAINTEXT` | `docs/Reference/HTML_ESCAPE.zh.md`<br>`docs/Reference/HTML_TOPLAINTEXT.zh.md`<br>`docs/Reference/README.zh.md` |
+| `INITRAND` | `docs/Emuera/variables.zh.md`<br>`docs/Reference/RAND.zh.md`<br>`docs/Reference/RANDOMIZE.zh.md` 等 5 篇 |
+| `INPUT` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 29 篇 |
+| `INPUTANY` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 6 篇 |
+| `INPUTMOUSEKEY` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 8 篇 |
+| `INPUTS` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Emuera/expression.zh.md`<br>`docs/Reference/FLOWINPUT.zh.md` 等 19 篇 |
+| `INPUTSNF` | `docs/Reference/REDRAW.zh.md` |
+| `INPUT_LOOP` | `docs/manual/eratohowiki-ERBmanual.zh.md` |
+| `INRANGE` | `docs/Reference/MAX.zh.md`<br>`docs/Reference/README.zh.md` |
+| `INRANGEARRAY` | `docs/Reference/INRANGEARRAY.zh.md`<br>`docs/Reference/README.zh.md` |
+| `INRANGECARRAY` | `docs/Reference/INRANGEARRAY.zh.md`<br>`docs/Reference/README.zh.md` |
+| `INT` | `docs/manual/erawiki-ERBmanual.zh.md` |
+| `INVERT` | `docs/manual/erawiki-ERBmanual.zh.md` |
+| `INVERTBIT` | `docs/Reference/BIT_OPERATION.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/manual/Emuera-etc.zh.md` 等 4 篇 |
+| `ISACTIVE` | `docs/Reference/ISACTIVE.zh.md`<br>`docs/Reference/README.zh.md` |
+| `ISASSI` | `docs/Reference/CVARSET.zh.md`<br>`docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `ISDEFINED` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Emuera/ERH.zh.md`<br>`docs/Reference/ISDEFINED.zh.md` 等 5 篇 |
+| `ISNUMERIC` | `docs/Reference/README.zh.md`<br>`docs/Reference/TOINT.zh.md` |
+| `ISPLAYINGBGM` | `docs/Reference/README.zh.md`<br>`docs/Reference/SOUNDCONTROL.zh.md` |
+| `ISPLAYINGSOUND` | `docs/Reference/README.zh.md`<br>`docs/Reference/SOUNDCONTROL.zh.md` |
+| `ISSKIP` | `docs/Reference/README.zh.md`<br>`docs/Reference/SKIP_RELATE.zh.md` |
+| `ISTIMEOUT` | `docs/Emuera/variables.zh.md` |
+| `ITALIC` | `docs/Reference/FONT_OPERATION.zh.md` |
+| `ITEM` | `docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Emuera/system_flow.zh.md`<br>`docs/Emuera/user_defined_variables.zh.md` 等 7 篇 |
+| `ITEMNAME` | `docs/Emuera/replace.zh.md`<br>`docs/Emuera/system_flow.zh.md`<br>`docs/Emuera/variables.zh.md` 等 6 篇 |
+| `ITEMPRICE` | `docs/Emuera/system_flow.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `ITEMSALES` | `docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Emuera/replace.zh.md`<br>`docs/Emuera/system_flow.zh.md` 等 6 篇 |
+| `ITEM_` | `docs/tutorial/rename-macro.zh.md` |
+| `JUEL` | `docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `JUMP` | `docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Emuera/function.zh.md`<br>`docs/Reference/CALLSTR.zh.md` 等 15 篇 |
+| `JUMPFORM` | `docs/Emuera/config.zh.md`<br>`docs/Reference/FORM.zh.md`<br>`docs/Reference/README.zh.md` 等 4 篇 |
+| `JUMPSTR` | `docs/Reference/CALLSTR.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `KFLAG` | `docs/manual/erawiki-ERBmanual.zh.md` |
+| `KOJOFLAG` | `docs/manual/erawiki-ERBmanual.zh.md` |
+| `LASTLOAD_NO` | `docs/Emuera/variables.zh.md` |
+| `LASTLOAD_TEXT` | `docs/Emuera/variables.zh.md` |
+| `LASTLOAD_VERSION` | `docs/Emuera/variables.zh.md` |
+| `LCOUNT` | `docs/manual/erawiki-modification-QandA.zh.md` |
+| `LEFT` | `docs/Emuera/expression.zh.md`<br>`docs/Reference/ALIGNMENT.zh.md` |
+| `LETTERBOX_DRAW` | `docs/tutorial/html-syntax.zh.md` |
+| `LETTER_TEXT_TO_HTML` | `docs/tutorial/html-syntax.zh.md` |
+| `LIMIT` | `docs/Reference/MAX.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `LINECOUNT` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Emuera/variables.zh.md` 等 9 篇 |
+| `LINECOUT` | `docs/Emuera/HTML_PRINT.zh.md` |
+| `LINEISEMPTY` | `docs/Reference/LINEISEMPTY.zh.md`<br>`docs/Reference/README.zh.md` |
+| `LOADCHARA` | `docs/Reference/FIND_CHARADATA.zh.md`<br>`docs/Reference/LOADCHARA.zh.md`<br>`docs/Reference/README.zh.md` |
+| `LOADDATA` | `docs/Emuera/system_flow.zh.md`<br>`docs/Reference/CLEARMEMORY.zh.md`<br>`docs/Reference/LOADDATA.zh.md` 等 7 篇 |
+| `LOADDATAEND` | `docs/Emuera/system_flow.zh.md` |
+| `LOADGAME` | `docs/Emuera/system_flow.zh.md`<br>`docs/Reference/LOADDATA.zh.md`<br>`docs/Reference/README.zh.md` 等 5 篇 |
+| `LOADGLOBAL` | `docs/Emuera/ERH.zh.md`<br>`docs/Emuera/variables.zh.md`<br>`docs/Reference/LOADGLOBAL.zh.md` 等 5 篇 |
+| `LOADTEXT` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/LOADTEXT.zh.md`<br>`docs/Reference/README.zh.md` 等 4 篇 |
+| `LOCAL` | `docs/Emuera/function.zh.md`<br>`docs/Emuera/glossary.zh.md`<br>`docs/Emuera/user_defined_variables.zh.md` 等 15 篇 |
+| `LOCALF` | `docs/Skia/CHANGELOG.zh.md`<br>`docs/Skia/Skia_Summary.zh.md`<br>`docs/tutorial/erb-format-extension.zh.md` 等 4 篇 |
+| `LOCALS` | `docs/Emuera/function.zh.md`<br>`docs/Emuera/glossary.zh.md`<br>`docs/Emuera/variables.zh.md` 等 12 篇 |
+| `LOG` | `docs/Reference/MATH_EXTENSION.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 4 篇 |
+| `LOG10` | `docs/Reference/MATH_EXTENSION.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/tutorial/constant-folding.zh.md` |
+| `LOOP` | `docs/Reference/DO.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/manual/Emuera-etc.zh.md` 等 8 篇 |
+| `LOSEBASE` | `docs/Emuera/system_flow.zh.md`<br>`docs/Emuera/variables.zh.md`<br>`docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `L_A` | `docs/tutorial/variable-declaration.zh.md` |
+| `L_ARG` | `docs/tutorial/variable-declaration.zh.md` |
+| `L_COUNT` | `docs/tutorial/variable-declaration.zh.md` |
+| `L_DAY` | `docs/tutorial/variable-declaration.zh.md` |
+| `L_LOCAL` | `docs/tutorial/variable-declaration.zh.md` |
+| `L_MONEY` | `docs/tutorial/variable-declaration.zh.md` |
+| `L_OUT` | `docs/tutorial/variable-declaration.zh.md` |
+| `L_RESULT` | `docs/tutorial/hello-world.zh.md` |
+| `L_SUM` | `docs/tutorial/variable-declaration.zh.md` |
+| `L_TARGET` | `docs/tutorial/variable-declaration.zh.md` |
+| `L_VAR` | `docs/tutorial/values-types.zh.md` |
+| `MAP` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/DT_MANAGE.zh.md`<br>`docs/Reference/LOADDATA.zh.md` 等 10 篇 |
+| `MAP_CLEAR` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `MAP_CREATE` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `MAP_EXIST` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 7 篇 |
+| `MAP_FINDKEY` | `docs/Reference/MAP_ENHANCED.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `MAP_FROMSTRING` | `docs/Reference/MAP_SERIALIZATION.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `MAP_FROMXML` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `MAP_GET` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `MAP_GETKEYS` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `MAP_HAS` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `MAP_MERGE` | `docs/Reference/MAP_ENHANCED.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `MAP_RELEASE` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `MAP_REMOVE` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `MAP_REMOVEIF` | `docs/Reference/MAP_ENHANCED.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `MAP_SET` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `MAP_SIZE` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `MAP_TOSTRING` | `docs/Reference/MAP_SERIALIZATION.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `MAP_TOXML` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `MAP_VALUES` | `docs/Reference/MAP_GETKEYS.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `MARK` | `docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `MARKNAME` | `docs/Emuera/variables.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `MASTER` | `docs/Emuera/debug.zh.md`<br>`docs/Emuera/glossary.zh.md`<br>`docs/Emuera/variables.zh.md` 等 10 篇 |
+| `MASTERNAME` | `docs/Emuera/variables.zh.md`<br>`docs/Reference/CSVNAME.zh.md`<br>`docs/Reference/GETCSVNOBY.zh.md` 等 4 篇 |
+| `MATCH` | `docs/Reference/CARRAY.zh.md`<br>`docs/Reference/MATCH.zh.md`<br>`docs/Reference/README.zh.md` |
+| `MATCHALL` | `docs/Reference/MATCHALL.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `MATCHALLEX` | `docs/Reference/MATCHALL.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `MAX` | `docs/Reference/MAX.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 5 篇 |
+| `MAXARRAY` | `docs/Reference/CARRAY.zh.md`<br>`docs/Reference/MAXMINARRAY.zh.md`<br>`docs/Reference/README.zh.md` |
+| `MAXBASE` | `docs/Emuera/variables.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `MAXCARRAY` | `docs/Reference/CARRAY.zh.md`<br>`docs/Reference/README.zh.md` |
+| `MAX_TRAIN` | `docs/Emuera/system_flow.zh.md` |
+| `MESSKIP` | `docs/Reference/README.zh.md`<br>`docs/Reference/SKIP_RELATE.zh.md` |
+| `METHOD_SAFE` | `docs/tutorial/command-vs-expression.zh.md`<br>`docs/tutorial/method-safety.zh.md` |
+| `MIN` | `docs/Reference/MAX.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 4 篇 |
+| `MINARRAY` | `docs/Reference/CARRAY.zh.md`<br>`docs/Reference/MAXMINARRAY.zh.md`<br>`docs/Reference/README.zh.md` |
+| `MINCARRAY` | `docs/Reference/CARRAY.zh.md`<br>`docs/Reference/README.zh.md` |
+| `MONEY` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 11 篇 |
+| `MONEYLABEL` | `docs/Emuera/variables.zh.md` |
+| `MONEYNAME` | `docs/EMEE/EMEE_Summary.zh.md` |
+| `MONEYSTR` | `docs/Reference/MONEYSTR.zh.md`<br>`docs/Reference/README.zh.md` |
+| `MOUSEB` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Reference/MOUSEB.zh.md` 等 4 篇 |
+| `MOUSESKIP` | `docs/Reference/README.zh.md`<br>`docs/Reference/SKIP_RELATE.zh.md` |
+| `MOUSEX` | `docs/Reference/MOUSEXY.zh.md`<br>`docs/Reference/README.zh.md` |
+| `MOUSEY` | `docs/Reference/MOUSEXY.zh.md`<br>`docs/Reference/README.zh.md` |
+| `MOVETEXTBOX` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `MY_FUNC` | `docs/tutorial/command-vs-expression.zh.md` |
+| `MY_INT_ARRAY` | `docs/Emuera/ERH.zh.md` |
+| `MY_STR_ARRAY` | `docs/Emuera/ERH.zh.md` |
+| `NAME` | `docs/Emuera/config.zh.md`<br>`docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Emuera/expression.zh.md` 等 12 篇 |
+| `NEXT` | `docs/Reference/FOR.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/tutorial/jump.zh.md` 等 4 篇 |
+| `NEXTCOM` | `docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Emuera/system_flow.zh.md`<br>`docs/Emuera/variables.zh.md` 等 4 篇 |
+| `NICKNAME` | `docs/Emuera/variables.zh.md`<br>`docs/Reference/CSVNAME.zh.md`<br>`docs/Reference/GETCSVNOBY.zh.md` 等 4 篇 |
+| `NOITEM` | `docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `NOSAMES` | `docs/Reference/GROUPCHECK.zh.md`<br>`docs/Reference/README.zh.md` |
+| `NOSKIP` | `docs/Reference/README.zh.md`<br>`docs/Reference/SKIP_RELATE.zh.md` |
+| `NOWEX` | `docs/Emuera/system_flow.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `NUMBER` | `docs/manual/erawiki-ERBmanual.zh.md` |
+| `ONEINPUT` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Emuera/config.zh.md`<br>`docs/Reference/FLOWINPUT.zh.md` 等 10 篇 |
+| `ONEINPUTS` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Emuera/config.zh.md`<br>`docs/Reference/FLOWINPUT.zh.md` 等 6 篇 |
+| `OUT` | `docs/tutorial/intro.zh.md`<br>`docs/tutorial/variable-declaration.zh.md` |
+| `OUTPUTLOG` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 6 篇 |
+| `PALAM` | `docs/Emuera/system_flow.zh.md`<br>`docs/Reference/UPCHECK.zh.md`<br>`docs/eramaker/CSV_format.zh.md` 等 5 篇 |
+| `PALAMLV` | `docs/Emuera/replace.zh.md`<br>`docs/Reference/GETPALAMLV.zh.md`<br>`docs/Reference/RESETDATA.zh.md` |
+| `PALAMNAME` | `docs/Emuera/variables.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `PBAND` | `docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `PICKUPCHARA` | `docs/Reference/PICKUPCHARA.zh.md`<br>`docs/Reference/README.zh.md` |
+| `PLAIN` | `docs/tutorial/basic-output.zh.md` |
+| `PLAYBGM` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 7 篇 |
+| `PLAYER` | `docs/Emuera/glossary.zh.md`<br>`docs/Emuera/variables.zh.md`<br>`docs/manual/eratohowiki-ERB-QandA.zh.md` 等 4 篇 |
+| `PLAYSOUND` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 7 篇 |
+| `PLUS` | `docs/manual/erawiki-ERBmanual.zh.md` |
+| `POWER` | `docs/Reference/POWER.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 4 篇 |
+| `PREVCOM` | `docs/manual/eratohowiki-ERB-QandA.zh.md`<br>`docs/manual/erawiki-modification-QandA.zh.md` |
+| `PRINT` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Emuera/HTML_PRINT.zh.md`<br>`docs/Emuera/config.zh.md` 等 30 篇 |
+| `PRINTBUTTON` | `docs/Reference/INPUTANY.zh.md`<br>`docs/Reference/PRINTBUTTON.zh.md`<br>`docs/manual/erawiki-ERBmanual.zh.md` 等 7 篇 |
+| `PRINTC` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Emuera/config.zh.md` 等 9 篇 |
+| `PRINTCLENGTH` | `docs/Reference/PRINTCLENGTH.zh.md`<br>`docs/Reference/README.zh.md` |
+| `PRINTCPERLINE` | `docs/Reference/PRINTCPERLINE.zh.md`<br>`docs/Reference/README.zh.md` |
+| `PRINTD` | `docs/tutorial/basic-output.zh.md` |
+| `PRINTDATA` | `docs/Reference/PRINTDATA.zh.md`<br>`docs/Reference/RANDOMIZE.zh.md`<br>`docs/Reference/STRDATA.zh.md` 等 8 篇 |
+| `PRINTFORM` | `docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Emuera/expression.zh.md`<br>`docs/Emuera/operand.zh.md` 等 17 篇 |
+| `PRINTFORML` | `docs/Emuera/function.zh.md`<br>`docs/manual/eratohowiki-ERBmanual.zh.md`<br>`docs/manual/erawiki-ERBmanual.zh.md` 等 5 篇 |
+| `PRINTFORMS` | `docs/manual/eratohowiki-ERBmanual.zh.md`<br>`docs/tutorial/basic-output.zh.md` |
+| `PRINTFORMW` | `docs/manual/eratohowiki-ERBmanual.zh.md`<br>`docs/manual/erawiki-ERBmanual.zh.md`<br>`docs/tutorial/basic-output.zh.md` |
+| `PRINTK` | `docs/tutorial/basic-output.zh.md` |
+| `PRINTL` | `docs/Reference/CLEARLINE.zh.md`<br>`docs/Reference/DEBUGPRINT.zh.md`<br>`docs/Reference/LINEISEMPTY.zh.md` 等 10 篇 |
+| `PRINTLC` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Reference/PRINTBUTTON.zh.md` |
+| `PRINTLV` | `docs/Emuera/system_flow.zh.md` |
+| `PRINTN` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/tutorial/basic-output.zh.md` |
+| `PRINTPLAIN` | `docs/manual/erawiki-ERBmanual.zh.md`<br>`docs/tutorial/basic-output.zh.md`<br>`docs/tutorial/method-safety.zh.md` |
+| `PRINTPLAINFORM` | `docs/tutorial/basic-output.zh.md`<br>`docs/tutorial/method-safety.zh.md` |
+| `PRINTS` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Emuera/HTML_PRINT.zh.md`<br>`docs/Emuera/expression.zh.md` 等 12 篇 |
+| `PRINTSDW` | `docs/Reference/PRINT.zh.md` |
+| `PRINTSINGLE` | `docs/Emuera/HTML_PRINT.zh.md`<br>`docs/Reference/PRINTSINGLE.zh.md`<br>`docs/manual/erawiki-ERBmanual.zh.md` 等 5 篇 |
+| `PRINTSL` | `docs/Emuera/HTML_PRINT.zh.md`<br>`docs/Reference/HTML_PRINT.zh.md`<br>`docs/manual/erawiki-title2.zh.md` 等 4 篇 |
+| `PRINTV` | `docs/Emuera/variables.zh.md`<br>`docs/manual/eratohowiki-ERBmanual.zh.md`<br>`docs/manual/erawiki-modification-QandA.zh.md` 等 4 篇 |
+| `PRINTVL` | `docs/tutorial/basic-output.zh.md` |
+| `PRINTW` | `docs/Reference/PRINTN.zh.md`<br>`docs/manual/erawiki-ERBmanual.zh.md`<br>`docs/tutorial/basic-output.zh.md` |
+| `PRINT_ABL` | `docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Reference/PRINT_STATUS.zh.md`<br>`docs/Reference/README.zh.md` 等 4 篇 |
+| `PRINT_EXP` | `docs/Reference/PRINT_STATUS.zh.md`<br>`docs/Reference/README.zh.md` |
+| `PRINT_IMG` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 8 篇 |
+| `PRINT_ITEM` | `docs/Reference/PRINT_STATUS.zh.md`<br>`docs/Reference/README.zh.md` |
+| `PRINT_ITEMSHOP` | `docs/Emuera/system_flow.zh.md` |
+| `PRINT_MARK` | `docs/Reference/PRINT_STATUS.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/tutorial/method-safety.zh.md` |
+| `PRINT_PALAM` | `docs/Reference/PRINT_STATUS.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/eramaker/system_flow.zh.md` |
+| `PRINT_RECT` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/PRINT_RECT.zh.md`<br>`docs/Reference/README.zh.md` |
+| `PRINT_SHOPITEM` | `docs/Emuera/config.zh.md`<br>`docs/Emuera/replace.zh.md`<br>`docs/Reference/PRINT_STATUS.zh.md` 等 5 篇 |
+| `PRINT_SPACE` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/PRINT_SPACE.zh.md`<br>`docs/Reference/README.zh.md` |
+| `PRINT_TALENT` | `docs/Reference/PRINT_STATUS.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/tutorial/method-safety.zh.md` |
+| `PUTFORM` | `docs/Emuera/variables.zh.md`<br>`docs/Reference/CHKDATA.zh.md`<br>`docs/Reference/PUTFORM.zh.md` 等 8 篇 |
+| `QUIT` | `docs/Reference/FORCE_QUIT.zh.md`<br>`docs/Reference/QUIT.zh.md`<br>`docs/Reference/QUIT_AND_RESTART.zh.md` 等 5 篇 |
+| `QUIT_AND_RESTART` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 6 篇 |
+| `RAND` | `docs/Emuera/config.zh.md`<br>`docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Emuera/variables.zh.md` 等 10 篇 |
+| `RANDDATA` | `docs/Emuera/variables.zh.md`<br>`docs/Reference/RANDOMIZE.zh.md` |
+| `RANDOMIZE` | `docs/Reference/RAND.zh.md`<br>`docs/Reference/RANDOMIZE.zh.md`<br>`docs/Reference/README.zh.md` 等 4 篇 |
+| `REDRAW` | `docs/Emuera/config.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/REDRAW.zh.md` 等 4 篇 |
+| `REF` | `docs/Emuera/ERH.zh.md`<br>`docs/Emuera/user_defined_variables.zh.md`<br>`docs/tutorial/intro.zh.md` 等 4 篇 |
+| `REGEXPMATCH` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `REGULAR` | `docs/Reference/FONT_OPERATION.zh.md` |
+| `RELATION` | `docs/Emuera/expression.zh.md`<br>`docs/Emuera/replace.zh.md`<br>`docs/eramaker/CSV_format.zh.md` 等 6 篇 |
+| `RELOAD` | `docs/tutorial/resources.zh.md` |
+| `REMOVEBGIMAGE` | `docs/Reference/BACKGROUND.zh.md`<br>`docs/Reference/README.zh.md` |
+| `REND` | `docs/Reference/README.zh.md`<br>`docs/Reference/REPEAT.zh.md`<br>`docs/Reference/TRY.zh.md` 等 6 篇 |
+| `REPEAT` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Emuera/variables.zh.md`<br>`docs/Reference/CONTINUE.zh.md` 等 17 篇 |
+| `REPLACE` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 6 篇 |
+| `RESETBGCOLOR` | `docs/Reference/README.zh.md`<br>`docs/Reference/SETBGCOLOR.zh.md` |
+| `RESETCOLOR` | `docs/Reference/README.zh.md`<br>`docs/Reference/SETBGCOLOR.zh.md`<br>`docs/Reference/SETCOLOR.zh.md` 等 4 篇 |
+| `RESETDATA` | `docs/Emuera/system_flow.zh.md`<br>`docs/Emuera/variables.zh.md`<br>`docs/Reference/BEGIN.zh.md` 等 11 篇 |
+| `RESETGLOBAL` | `docs/Reference/README.zh.md`<br>`docs/Reference/RESETGLOBAL.zh.md` |
+| `RESET_STAIN` | `docs/Reference/README.zh.md`<br>`docs/Reference/RESET_STAIN.zh.md` |
+| `RESTART` | `docs/Emuera/user_defined_variables.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/RESTART.zh.md` 等 4 篇 |
+| `RESULT` | `docs/Emuera/config.zh.md`<br>`docs/Emuera/in_expression_function.zh.md`<br>`docs/Reference/BEGIN.zh.md` 等 41 篇 |
+| `RESULTF` | `docs/Skia/CHANGELOG.zh.md`<br>`docs/Skia/Skia_Summary.zh.md`<br>`docs/tutorial/values-types.zh.md` |
+| `RESULTS` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Emuera/expression.zh.md`<br>`docs/Emuera/in_expression_function.zh.md` 等 27 篇 |
+| `RESUMETEXTBOX` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `RETURN` | `docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Emuera/function.zh.md`<br>`docs/Emuera/system_flow.zh.md` 等 24 篇 |
+| `RETURNF` | `docs/Emuera/user_defined_in_expression_function.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/RETURN.zh.md` 等 14 篇 |
+| `RETURNFORM` | `docs/Reference/README.zh.md`<br>`docs/Reference/RETURN.zh.md`<br>`docs/manual/eratohowiki-ERB-QandA.zh.md` 等 6 篇 |
+| `RETURNSFORM` | `docs/tutorial/call.zh.md`<br>`docs/tutorial/dynamic-reflection.zh.md` |
+| `REUSELASTLINE` | `docs/Reference/README.zh.md`<br>`docs/Reference/REUSELASTLINE.zh.md`<br>`docs/manual/Emuera-etc.zh.md` 等 4 篇 |
+| `REUSELASTLINE_` | `docs/manual/Emuera-etc.zh.md` |
+| `RGB` | `docs/Reference/SETCOLOR.zh.md`<br>`docs/manual/erawiki-ERBmanual.zh.md` |
+| `RIGHT` | `docs/Reference/ALIGNMENT.zh.md` |
+| `ROUND` | `docs/Reference/MATH_EXTENSION.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `SAVECHARA` | `docs/Reference/README.zh.md`<br>`docs/Reference/SAVECHARA.zh.md` |
+| `SAVEDATA` | `docs/Emuera/ERH.zh.md`<br>`docs/Emuera/user_defined_variables.zh.md`<br>`docs/Reference/CHKDATA.zh.md` 等 10 篇 |
+| `SAVEDATA_TEXT` | `docs/Emuera/variables.zh.md` |
+| `SAVEGAME` | `docs/Emuera/system_flow.zh.md`<br>`docs/Emuera/variables.zh.md`<br>`docs/Reference/README.zh.md` 等 6 篇 |
+| `SAVEGLOBAL` | `docs/Emuera/ERH.zh.md`<br>`docs/Emuera/variables.zh.md`<br>`docs/Reference/README.zh.md` 等 5 篇 |
+| `SAVENOS` | `docs/Reference/README.zh.md`<br>`docs/Reference/SAVENOS.zh.md` |
+| `SAVESTR` | `docs/eramaker/CSV_format.zh.md`<br>`docs/manual/eratohowiki-ERB-QandA.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `SAVESTRNAME` | `docs/Emuera/variables.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `SAVETEXT` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/SAVETEXT.zh.md` |
+| `SAVE_INFO` | `docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `SELECTCASE` | `docs/Reference/README.zh.md`<br>`docs/Reference/SELECTCASE.zh.md`<br>`docs/manual/Emuera-etc.zh.md` 等 11 篇 |
+| `SELECTCOM` | `docs/Emuera/system_flow.zh.md`<br>`docs/Reference/DOTRAIN.zh.md`<br>`docs/manual/eratohowiki-ERB-QandA.zh.md` 等 4 篇 |
+| `SEQUENCEINPUT` | `docs/Reference/README.zh.md`<br>`docs/Reference/SEQUENCEINPUT.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `SET` | `docs/Reference/GETSETVAR.zh.md`<br>`docs/manual/erawiki-ERBmanual.zh.md` |
+| `SETANIMETIMER` | `docs/Emuera/resources.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/SETANIMETIMER.zh.md` 等 6 篇 |
+| `SETBGCOLOR` | `docs/Reference/README.zh.md`<br>`docs/Reference/SETBGCOLOR.zh.md`<br>`docs/Reference/SETCOLORBYNAME.zh.md` 等 4 篇 |
+| `SETBGCOLORBYNAME` | `docs/Reference/README.zh.md`<br>`docs/Reference/SETBGCOLOR.zh.md`<br>`docs/Reference/SETCOLORBYNAME.zh.md` |
+| `SETBGIMAGE` | `docs/Reference/BACKGROUND.zh.md`<br>`docs/Reference/CLEARIMAGELAYER.zh.md`<br>`docs/Reference/README.zh.md` 等 4 篇 |
+| `SETBGMVOLUME` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `SETBIT` | `docs/Reference/BIT_OPERATION.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/manual/Emuera-etc.zh.md` 等 5 篇 |
+| `SETCOLOR` | `docs/Emuera/config.zh.md`<br>`docs/Emuera/config_files.zh.md`<br>`docs/Reference/GETCOLOR.zh.md` 等 15 篇 |
+| `SETCOLORBYNAME` | `docs/Reference/README.zh.md`<br>`docs/Reference/SETCOLOR.zh.md`<br>`docs/Reference/SETCOLORBYNAME.zh.md` 等 4 篇 |
+| `SETFONT` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Emuera/HTML_PRINT.zh.md`<br>`docs/Reference/GSETFONT.zh.md` 等 10 篇 |
+| `SETIMAGELAYER` | `docs/Reference/CLEARIMAGELAYER.zh.md`<br>`docs/Reference/EXISTSIMAGELAYER.zh.md`<br>`docs/Reference/GETLINEY.zh.md` 等 7 篇 |
+| `SETIMAGELAYERL` | `docs/Reference/README.zh.md`<br>`docs/Reference/SETIMAGELAYER.zh.md`<br>`docs/Reference/SETIMAGELAYERL.zh.md` |
+| `SETSOUNDVOLUME` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `SETSTYLE` | `docs/Reference/FONT_OPERATION.zh.md` |
+| `SETTEXTBOX` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `SETVAR` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/GETSETVAR.zh.md`<br>`docs/Reference/README.zh.md` 等 4 篇 |
+| `SET_SKIA_QUALITY` | `docs/Reference/README.zh.md`<br>`docs/Reference/SKIA_RENDER.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `SET_TEXT_DRAWING_MODE` | `docs/Reference/README.zh.md`<br>`docs/Reference/SKIA_RENDER.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `SHOP` | `docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Emuera/system_flow.zh.md`<br>`docs/Reference/BEGIN.zh.md` 等 6 篇 |
+| `SHOW_ABLUP_SELECT` | `docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `SHOW_CHARA_LIST` | `docs/manual/erawiki-modification-QandA.zh.md` |
+| `SHOW_JUEL` | `docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `SHOW_SHOP` | `docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `SHOW_STATUS` | `docs/Reference/CALLTRAIN.zh.md`<br>`docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `SHOW_USERCOM` | `docs/Reference/CALLTRAIN.zh.md`<br>`docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `SIF` | `docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Reference/IF.zh.md`<br>`docs/Reference/SKIP_RELATE.zh.md` 等 6 篇 |
+| `SIGN` | `docs/Reference/ABS.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 4 篇 |
+| `SIN` | `docs/Reference/MATH_EXTENSION.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 4 篇 |
+| `SJIS` | `docs/Emuera/config.zh.md` |
+| `SKIASHARP` | `docs/Reference/SKIA_RENDER.zh.md` |
+| `SKIPDISP` | `docs/Reference/DEBUGPRINT.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/SKIP_RELATE.zh.md` |
+| `SKIPLOG` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Reference/README.zh.md` 等 4 篇 |
+| `SORTCHARA` | `docs/Reference/README.zh.md`<br>`docs/Reference/SORTCHARA.zh.md`<br>`docs/manual/eratohowiki-ERB-QandA.zh.md` 等 4 篇 |
+| `SOUNDCONTROL` | `docs/Reference/README.zh.md`<br>`docs/Reference/SOUNDCONTROL.zh.md` |
+| `SOURCE` | `docs/Emuera/system_flow.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/manual/eratohowiki-ERB-QandA.zh.md` 等 5 篇 |
+| `SOURCENAME` | `docs/Emuera/variables.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `SOURCE_CHECK` | `docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `SPLIT` | `docs/Reference/README.zh.md`<br>`docs/Reference/SPLIT.zh.md`<br>`docs/tutorial/method-safety.zh.md` |
+| `SPRITEANIMEADDFRAME` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Reference/README.zh.md` 等 5 篇 |
+| `SPRITEANIMECREATE` | `docs/Reference/README.zh.md`<br>`docs/Reference/SPRITEANIMECREATE.zh.md` |
+| `SPRITEANNIME` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md` |
+| `SPRITECREATE` | `docs/Emuera/resources.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/SPRITECREATE.zh.md` 等 5 篇 |
+| `SPRITECREATED` | `docs/Reference/README.zh.md`<br>`docs/Reference/SPRITECREATED.zh.md`<br>`docs/Reference/SPRITEPOSXY.zh.md` |
+| `SPRITECREATEFROMFILE` | `docs/Reference/README.zh.md`<br>`docs/Reference/SPRITECREATEFROMFILE.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 4 篇 |
+| `SPRITEDISPOSE` | `docs/Emuera/resources.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/SPRITEDISPOSE.zh.md` 等 4 篇 |
+| `SPRITEDISPOSEALL` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/Reference/README.zh.md` 等 4 篇 |
+| `SPRITEGETCOLOR` | `docs/Reference/README.zh.md`<br>`docs/Reference/SPRITEGETCOLOR.zh.md` |
+| `SPRITEHEIGHT` | `docs/Reference/README.zh.md`<br>`docs/Reference/SPRITEWIDTHHEIGHT.zh.md` |
+| `SPRITEMOVE` | `docs/Emuera/resources.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/SPRITEMOVE.zh.md` 等 4 篇 |
+| `SPRITEPOS` | `docs/Emuera/resources.zh.md`<br>`docs/tutorial/resources.zh.md` |
+| `SPRITEPOSX` | `docs/Reference/README.zh.md`<br>`docs/Reference/SPRITEPOSXY.zh.md` |
+| `SPRITEPOSY` | `docs/Reference/README.zh.md`<br>`docs/Reference/SPRITEPOSXY.zh.md` |
+| `SPRITESETPOS` | `docs/Reference/README.zh.md`<br>`docs/Reference/SPRITESETPOS.zh.md` |
+| `SPRITEWIDTH` | `docs/Reference/README.zh.md`<br>`docs/Reference/SPRITEWIDTHHEIGHT.zh.md` |
+| `SP_SETBGIMAGE` | `docs/Skia/CHANGELOG.zh.md` |
+| `SQL_CONNECT` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_CONNECT.zh.md`<br>`docs/Reference/SQL_EXECUTE.zh.md` 等 4 篇 |
+| `SQL_CONNECTION_OPEN` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_CONNECT.zh.md`<br>`docs/Reference/SQL_EXECUTE.zh.md` 等 5 篇 |
+| `SQL_DISCONNECT` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_CONNECT.zh.md` |
+| `SQL_ESCAPE` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_PARAM.zh.md`<br>`docs/Skia/CHANGELOG.zh.md` 等 4 篇 |
+| `SQL_EXECUTE_NONQUERY` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_EXECUTE.zh.md` |
+| `SQL_EXECUTE_READER` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_EXECUTE.zh.md`<br>`docs/Reference/SQL_READER.zh.md` |
+| `SQL_EXECUTE_SCALAR_FLOAT` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_EXECUTE.zh.md` |
+| `SQL_EXECUTE_SCALAR_LONG` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_EXECUTE.zh.md`<br>`docs/Skia/CHANGELOG.zh.md` |
+| `SQL_EXECUTE_SCALAR_STRING` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_EXECUTE.zh.md` |
+| `SQL_EXPORT_DT_XML` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_XML.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `SQL_EXPORT_MAP_XML` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_XML.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `SQL_IMPORT_DT_XML` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_XML.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `SQL_IMPORT_MAP_XML` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_XML.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `SQL_IMPORT_XML_CUSTOM` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_XML.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `SQL_P_EXECUTE_NONQUERY` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_PARAM.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `SQL_P_EXECUTE_READER` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_PARAM.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `SQL_P_EXECUTE_SCALAR_FLOAT` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_PARAM.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `SQL_P_EXECUTE_SCALAR_LONG` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_PARAM.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `SQL_P_EXECUTE_SCALAR_STRING` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_PARAM.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `SQL_READER_CLOSE` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_EXECUTE.zh.md`<br>`docs/Reference/SQL_READER.zh.md` |
+| `SQL_READER_GET_FLOAT` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_READER.zh.md` |
+| `SQL_READER_GET_LONG` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_READER.zh.md` |
+| `SQL_READER_GET_STRING` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_READER.zh.md` |
+| `SQL_READER_ISNULL` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_READER.zh.md` |
+| `SQL_READER_READ` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQL_EXECUTE.zh.md`<br>`docs/Reference/SQL_READER.zh.md` |
+| `SQRT` | `docs/Reference/README.zh.md`<br>`docs/Reference/SQRT.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 4 篇 |
+| `STAIN` | `docs/Emuera/replace.zh.md`<br>`docs/Reference/RESET_STAIN.zh.md`<br>`docs/eramaker/CSV_format.zh.md` 等 7 篇 |
+| `STAINNAME` | `docs/Emuera/variables.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `STATIC` | `docs/Emuera/ERH.zh.md`<br>`docs/Emuera/user_defined_variables.zh.md`<br>`docs/tutorial/variable-declaration.zh.md` |
+| `STATIC_MAPS` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md` |
+| `STOPBGM` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `STOPCALLTRAIN` | `docs/Reference/README.zh.md`<br>`docs/Reference/STOPCALLTRAIN.zh.md` |
+| `STOPSOUND` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `STR` | `docs/Emuera/function.zh.md`<br>`docs/Emuera/system_flow.zh.md`<br>`docs/Emuera/variables.zh.md` 等 9 篇 |
+| `STRCOUNT` | `docs/Reference/README.zh.md`<br>`docs/Reference/STRCOUNT.zh.md` |
+| `STRDATA` | `docs/Reference/RANDOMIZE.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/STRDATA.zh.md` |
+| `STRFIND` | `docs/Reference/README.zh.md`<br>`docs/Reference/STRFIND.zh.md` |
+| `STRFINDU` | `docs/Reference/README.zh.md`<br>`docs/Reference/STRFIND.zh.md` |
+| `STRFORM` | `docs/Reference/README.zh.md`<br>`docs/Reference/STRFORM.zh.md`<br>`docs/tutorial/form-syntax.zh.md` |
+| `STRFORMCHECK` | `docs/Reference/STRFORM.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `STRICT_FONT_FALLBACK` | `docs/Reference/README.zh.md`<br>`docs/Reference/STRICT_FONT_FALLBACK.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `STRING` | `docs/Skia/CHANGELOG.zh.md` |
+| `STRJOIN` | `docs/Reference/README.zh.md`<br>`docs/Reference/SPLIT.zh.md` |
+| `STRLEN` | `docs/Reference/README.zh.md`<br>`docs/Reference/STRLEN.zh.md`<br>`docs/tutorial/command-vs-expression.zh.md` 等 4 篇 |
+| `STRLENFORM` | `docs/Reference/README.zh.md`<br>`docs/Reference/STRLEN.zh.md` |
+| `STRLENFORMU` | `docs/Reference/README.zh.md`<br>`docs/Reference/STRLEN.zh.md` |
+| `STRLENS` | `docs/Emuera/config.zh.md`<br>`docs/Emuera/in_expression_function.zh.md`<br>`docs/Reference/README.zh.md` 等 4 篇 |
+| `STRLENSU` | `docs/Reference/README.zh.md`<br>`docs/Reference/STRLEN.zh.md` |
+| `STRLENU` | `docs/Reference/README.zh.md`<br>`docs/Reference/STRLEN.zh.md` |
+| `STRNAME` | `docs/Emuera/variables.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `STR_NULLABLE` | `docs/tutorial/basic-output.zh.md` |
+| `SUBSTRING` | `docs/Emuera/in_expression_function.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/SUBSTRING.zh.md` |
+| `SUBSTRINGU` | `docs/Reference/README.zh.md`<br>`docs/Reference/SUBSTRING.zh.md` |
+| `SUMARRAY` | `docs/Reference/CARRAY.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/SUMARRAY.zh.md` |
+| `SUMCARRAY` | `docs/Reference/CARRAY.zh.md`<br>`docs/Reference/README.zh.md` |
+| `SWAP` | `docs/Reference/README.zh.md`<br>`docs/Reference/SWAP.zh.md` |
+| `SWAPCHARA` | `docs/Reference/README.zh.md`<br>`docs/Reference/SWAPCHARA.zh.md`<br>`docs/manual/eratohowiki-ERB-QandA.zh.md` 等 4 篇 |
+| `SYSTEM_TITLE` | `docs/tutorial/hello-world.zh.md` |
+| `TALENT` | `docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Emuera/glossary.zh.md`<br>`docs/Emuera/in_expression_function.zh.md` 等 10 篇 |
+| `TALENTNAME` | `docs/Emuera/variables.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `TAN` | `docs/Reference/MATH_EXTENSION.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 4 篇 |
+| `TARGET` | `docs/Emuera/glossary.zh.md`<br>`docs/Emuera/system_flow.zh.md`<br>`docs/Emuera/user_defined_in_expression_function.zh.md` 等 15 篇 |
+| `TCVAR` | `docs/Emuera/variables.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `TCVARNAME` | `docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `TEQUIP` | `docs/Emuera/system_flow.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/manual/eratohowiki-ERBmanual.zh.md` 等 4 篇 |
+| `TEQUIPNAME` | `docs/Emuera/variables.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `TEXTRENDERER` | `docs/Emuera/config.zh.md`<br>`docs/Reference/SKIA_RENDER.zh.md` |
+| `TEXT_BGC_OFF` | `docs/Reference/README.zh.md`<br>`docs/Reference/TEXT_BGC.zh.md`<br>`docs/Skia/CHANGELOG.zh.md` 等 5 篇 |
+| `TEXT_BGC_ON` | `docs/Reference/README.zh.md`<br>`docs/Reference/TEXT_BGC.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 4 篇 |
+| `TFLAG` | `docs/Emuera/system_flow.zh.md`<br>`docs/Emuera/variables.zh.md`<br>`docs/eramaker/CSV_format.zh.md` 等 6 篇 |
+| `TFLAGNAME` | `docs/Emuera/variables.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `THROW` | `docs/Emuera/system_flow.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/THROW.zh.md` 等 8 篇 |
+| `TIME` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 6 篇 |
+| `TIME2` | `docs/manual/erawiki-modification-QandA.zh.md` |
+| `TIMENAME` | `docs/EMEE/EMEE_Summary.zh.md` |
+| `TIMER` | `docs/manual/erawiki-modification-QandA.zh.md` |
+| `TIMES` | `docs/Reference/README.zh.md`<br>`docs/Reference/TIMES.zh.md`<br>`docs/manual/eratohowiki-ERBmanual.zh.md` 等 4 篇 |
+| `TINPUT` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Emuera/replace.zh.md`<br>`docs/Reference/FLOWINPUT.zh.md` 等 12 篇 |
+| `TINPUTNF` | `docs/Reference/TINPUTNF.zh.md`<br>`docs/Skia/CHANGELOG.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 4 篇 |
+| `TINPUTS` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/FLOWINPUT.zh.md`<br>`docs/Reference/README.zh.md` 等 7 篇 |
+| `TINPUTSNF` | `docs/Reference/TINPUTNF.zh.md`<br>`docs/Skia/CHANGELOG.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 4 篇 |
+| `TITLE` | `docs/Reference/BEGIN.zh.md` |
+| `TOFLOAT` | `docs/Reference/README.zh.md`<br>`docs/Reference/TOINT.zh.md`<br>`docs/Skia/CHANGELOG.zh.md` 等 4 篇 |
+| `TOFULL` | `docs/Reference/README.zh.md`<br>`docs/Reference/TOUPPER.zh.md` |
+| `TOHALF` | `docs/Reference/README.zh.md`<br>`docs/Reference/TOUPPER.zh.md` |
+| `TOINT` | `docs/Reference/README.zh.md`<br>`docs/Reference/TOINT.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `TOKI` | `docs/manual/erawiki-modification-QandA.zh.md` |
+| `TOLOWER` | `docs/Reference/README.zh.md`<br>`docs/Reference/TOUPPER.zh.md` |
+| `TONEINPUT` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/FLOWINPUT.zh.md`<br>`docs/Reference/README.zh.md` 等 5 篇 |
+| `TONEINPUTNF` | `docs/Reference/TONEINPUTNF.zh.md`<br>`docs/Skia/CHANGELOG.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 4 篇 |
+| `TONEINPUTS` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/FLOWINPUT.zh.md`<br>`docs/Reference/README.zh.md` 等 5 篇 |
+| `TONEINPUTSNF` | `docs/Reference/TONEINPUTNF.zh.md`<br>`docs/Skia/CHANGELOG.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` 等 4 篇 |
+| `TOOLTIP_CUSTOM` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/TOOLTIP_EXTENSION.zh.md` 等 4 篇 |
+| `TOOLTIP_FORMAT` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/TOOLTIP_EXTENSION.zh.md` |
+| `TOOLTIP_IMG` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md` |
+| `TOOLTIP_SETCOLOR` | `docs/Reference/README.zh.md`<br>`docs/Reference/TOOLTIP_EXTENSION.zh.md`<br>`docs/Reference/TOOLTIP_SETCOLOR.zh.md` |
+| `TOOLTIP_SETDELAY` | `docs/Reference/README.zh.md`<br>`docs/Reference/TOOLTIP_SET.zh.md` |
+| `TOOLTIP_SETDURATION` | `docs/Reference/README.zh.md`<br>`docs/Reference/TOOLTIP_SET.zh.md` |
+| `TOOLTIP_SETFONT` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/TOOLTIP_EXTENSION.zh.md` |
+| `TOOLTIP_SETFONTSIZE` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/TOOLTIP_EXTENSION.zh.md` |
+| `TOSTR` | `docs/Emuera/function.zh.md`<br>`docs/Reference/MONEYSTR.zh.md`<br>`docs/Reference/README.zh.md` 等 14 篇 |
+| `TOSTRF` | `docs/Reference/README.zh.md`<br>`docs/Reference/TOSTR.zh.md`<br>`docs/Skia/CHANGELOG.zh.md` 等 6 篇 |
+| `TOUPPER` | `docs/Reference/README.zh.md`<br>`docs/Reference/TOUPPER.zh.md` |
+| `TRAIN` | `docs/Emuera/replace.zh.md`<br>`docs/Emuera/system_flow.zh.md`<br>`docs/Reference/CALLTRAIN.zh.md` 等 6 篇 |
+| `TRAINNAME` | `docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Emuera/system_flow.zh.md`<br>`docs/Reference/DOTRAIN.zh.md` 等 7 篇 |
+| `TRY` | `docs/Reference/CALLSTR.zh.md`<br>`docs/Reference/TRYCALLF.zh.md`<br>`docs/Reference/TRYCALLFORMF.zh.md` 等 4 篇 |
+| `TRYC` | `docs/Reference/CALLSTR.zh.md`<br>`docs/Reference/FORM.zh.md`<br>`docs/Reference/TRY.zh.md` 等 6 篇 |
+| `TRYCALL` | `docs/Reference/CALL.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/TRY.zh.md` 等 7 篇 |
+| `TRYCALLF` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 6 篇 |
+| `TRYCALLFORM` | `docs/Reference/README.zh.md`<br>`docs/Reference/TRYFORM.zh.md`<br>`docs/manual/erawiki-modification-QandA.zh.md` |
+| `TRYCALLFORMF` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 6 篇 |
+| `TRYCALLLIST` | `docs/Reference/README.zh.md`<br>`docs/Reference/TRYLIST.zh.md` |
+| `TRYCALLSTR` | `docs/Reference/CALLSTR.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `TRYCCALL` | `docs/Reference/README.zh.md`<br>`docs/Reference/TRYC.zh.md` |
+| `TRYCCALLFORM` | `docs/Reference/README.zh.md`<br>`docs/Reference/TRYC.zh.md`<br>`docs/manual/erawiki-ERBmanual.zh.md` |
+| `TRYCCALLSTR` | `docs/Reference/CALLSTR.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `TRYCGOTO` | `docs/Reference/TRYC.zh.md` |
+| `TRYCGOTOFORM` | `docs/Reference/README.zh.md`<br>`docs/Reference/TRYC.zh.md` |
+| `TRYCJUMP` | `docs/Reference/README.zh.md`<br>`docs/Reference/TRYC.zh.md` |
+| `TRYCJUMPSTR` | `docs/Reference/CALLSTR.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `TRYGOTO` | `docs/Reference/FORM.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/TRY.zh.md` 等 7 篇 |
+| `TRYGOTOFORM` | `docs/Reference/README.zh.md`<br>`docs/Reference/TRYFORM.zh.md` |
+| `TRYGOTOLIST` | `docs/Reference/README.zh.md`<br>`docs/Reference/TRYLIST.zh.md` |
+| `TRYJUMP` | `docs/Reference/README.zh.md`<br>`docs/Reference/TRY.zh.md`<br>`docs/tutorial/call.zh.md` 等 4 篇 |
+| `TRYJUMPFORM` | `docs/Reference/README.zh.md`<br>`docs/Reference/TRYFORM.zh.md` |
+| `TRYJUMPLIST` | `docs/Reference/README.zh.md`<br>`docs/Reference/TRYLIST.zh.md` |
+| `TRYJUMPSTR` | `docs/Reference/CALLSTR.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `TSTR` | `docs/Emuera/variables.zh.md`<br>`docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `TSTRNAME` | `docs/eramaker/CSV_format.zh.md`<br>`docs/tutorial/character-variables.zh.md` |
+| `TWAIT` | `docs/Reference/README.zh.md`<br>`docs/Reference/TWAIT.zh.md` |
+| `UNCHECKED_ADD` | `docs/Reference/README.zh.md`<br>`docs/Reference/UNCHECKED.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `UNCHECKED_MUL` | `docs/Reference/README.zh.md`<br>`docs/Reference/UNCHECKED.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `UNCHECKED_NEG` | `docs/Reference/README.zh.md`<br>`docs/Reference/UNCHECKED.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `UNCHECKED_SUB` | `docs/Reference/README.zh.md`<br>`docs/Reference/UNCHECKED.zh.md`<br>`docs/Skia/Skia_Summary.zh.md` |
+| `UNICODE` | `docs/Reference/README.zh.md`<br>`docs/Reference/UNICODE.zh.md` |
+| `UPCHECK` | `docs/Emuera/system_flow.zh.md`<br>`docs/Emuera/variables.zh.md`<br>`docs/Reference/README.zh.md` 等 6 篇 |
+| `UPDATECHECK` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 6 篇 |
+| `USERABLUP` | `docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `USERCOM` | `docs/Reference/CALLTRAIN.zh.md`<br>`docs/manual/Emuera-etc.zh.md`<br>`docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `USER_SHOP` | `docs/manual/eratohowiki-ERB-QandA.zh.md` |
+| `VAR` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md` |
+| `VAREXIST` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md` |
+| `VARI` | `docs/Reference/README.zh.md`<br>`docs/Reference/VAR.zh.md` |
+| `VARIADIC` | `docs/Reference/ARGLEN.zh.md`<br>`docs/Skia/CHANGELOG.zh.md`<br>`docs/tutorial/variable-declaration.zh.md` |
+| `VARS` | `docs/Reference/README.zh.md`<br>`docs/Reference/VAR.zh.md` |
+| `VARSET` | `docs/Reference/README.zh.md`<br>`docs/Reference/VARSET.zh.md`<br>`docs/Reference/VARSETEX.zh.md` 等 6 篇 |
+| `VARSETEX` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `VARSIZE` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Emuera/config.zh.md`<br>`docs/Emuera/variables.zh.md` 等 5 篇 |
+| `VERSIONAME` | `docs/manual/erawiki-title2.zh.md` |
+| `VERSIONNAME` | `docs/manual/erawiki-title2.zh.md` |
+| `WAIT` | `docs/Emuera/config.zh.md`<br>`docs/Emuera/differences_of_Emuera_and_eramaker.zh.md`<br>`docs/Emuera/glossary.zh.md` 等 20 篇 |
+| `WAITANYKEY` | `docs/Reference/README.zh.md`<br>`docs/Reference/WAITANYKEY.zh.md` |
+| `WEND` | `docs/Reference/README.zh.md`<br>`docs/Reference/WHILE.zh.md`<br>`docs/tutorial/jump.zh.md` 等 4 篇 |
+| `WHILE` | `docs/Reference/CONTINUE.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/WHILE.zh.md` 等 12 篇 |
+| `WINAPI` | `docs/Emuera/HTML_PRINT.zh.md`<br>`docs/Emuera/config.zh.md`<br>`docs/Emuera/resources.zh.md` |
+| `WINDOW_TITLE` | `docs/Emuera/variables.zh.md`<br>`docs/manual/erawiki-title2.zh.md` |
+| `XML` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/DT_MANAGE.zh.md`<br>`docs/Reference/DT_SERIALIZATION.zh.md` 等 14 篇 |
+| `XML_ADDATTRIBUTE` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `XML_ADDATTRIBUTE_BYNAME` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/XML_ADDATTRIBUTE.zh.md` |
+| `XML_ADDNODE` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `XML_ADDNODE_BYNAME` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/XML_ADDNODE.zh.md` |
+| `XML_DOCUMENT` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `XML_EXIST` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `XML_GET` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 6 篇 |
+| `XML_GET_BYNAME` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/XML_GET.zh.md` |
+| `XML_RELEASE` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `XML_REMOVEATTRIBUTE` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `XML_REMOVEATTRIBUTE_BYNAME` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/XML_REMOVEATTRIBUTE.zh.md` |
+| `XML_REMOVENODE` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `XML_REMOVENODE_BYNAME` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/XML_REMOVENODE.zh.md` |
+| `XML_REPLACE` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `XML_REPLACE_BYNAME` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/XML_REPLACE.zh.md` |
+| `XML_SET` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `XML_SET_BYNAME` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Reference/README.zh.md`<br>`docs/Reference/XML_SET.zh.md` |
+| `XML_TOSTR` | `docs/Changelog/README.zh.md`<br>`docs/EMEE/CHANGELOG.zh.md`<br>`docs/EMEE/EMEE_Summary.zh.md` 等 5 篇 |
+| `XXX` | `docs/Emuera/ERH.zh.md`<br>`docs/Emuera/function.zh.md` |
+| `XXXXX` | `docs/manual/erawiki-title2.zh.md` |
+| `YES` | `docs/EMEE/EMEE_Summary.zh.md`<br>`docs/Emuera/config.zh.md`<br>`docs/Emuera/differences_of_Emuera_and_eramaker.zh.md` |

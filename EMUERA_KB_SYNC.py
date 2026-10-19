@@ -34,7 +34,6 @@ def esc(s):
 def build_index():
     with io.open(IDX_SRC, "r", encoding="utf-8") as f:
         lines = f.read().splitlines()
-
     out = []
     out.append("# Emuera 官方语法文档 · 索引（387 篇）\n")
     out.append("> 来源：`emuera.sk.doc` 重构版（原 evilmask 文档），由 `EMUERA_DOC_INDEX.py` 生成。\n")
@@ -83,9 +82,53 @@ def build_index():
     flush()  # 最后一类也要输出
 
     out.append("\n---\n\n共 %d 篇。\n" % total)
+    out.extend(build_reverse_lookup())
     with io.open(IDX_OUT, "w", encoding="utf-8", newline="\n") as f:
         f.write("\n".join(out))
     return total
+
+
+CMD_TOKEN = re.compile(r"`([A-Z][A-Z0-9_]{2,})`")
+FILE_MARK = re.compile(r"^===== FILE:\s*(.+?)\s*$", re.M)
+
+
+def build_reverse_lookup():
+    """从全文合并文件里提取「反引号内的大写命令名 → 所在文档」，生成反查表。
+
+    解决索引「名称」列粒度太粗的问题：比如 TRYC.zh.md 的名称列只写 `TRYC系`，
+    但文档里实际讲了 TRYCALL / TRYCCALL / TRYCCALLFORM 等，AI 搜后者会 0 命中。
+    """
+    if not os.path.exists(ALL_SRC):
+        return []
+    with io.open(ALL_SRC, "r", encoding="utf-8") as f:
+        body = f.read()
+
+    marks = list(FILE_MARK.finditer(body))
+    rev = {}
+    for i, m in enumerate(marks):
+        path = m.group(1).replace("\\", "/")
+        seg_end = marks[i + 1].start() if i + 1 < len(marks) else len(body)
+        for tok in CMD_TOKEN.findall(body[m.end():seg_end]):
+            rev.setdefault(tok, set()).add(path)
+
+    if not rev:
+        return []
+
+    out = ["", "---", "",
+           "## 附录：命令反查表（%d 个命令）" % len(rev), "",
+           "> 索引「名称」列只写文档标题，粒度较粗（例如 `TRYC.zh.md` 的名称是 `TRYC系`，",
+           "> 但它同时讲了 `TRYCALL` / `TRYCCALL` / `TRYCCALLFORM`）。",
+           "> **在主索引里搜不到某个命令时，先查这张表**——只要文档正文里以反引号出现过就会收录。", "",
+           "| 命令 | 所在文档 |", "|---|---|"]
+    for tok in sorted(rev):
+        paths = sorted(rev[tok])
+        show = paths[:3]
+        cell = "<br>".join("`%s`" % p for p in show)
+        if len(paths) > 3:
+            cell += " 等 %d 篇" % len(paths)
+        out.append("| `%s` | %s |" % (tok, cell))
+    out.append("")
+    return out
 
 
 def build_all():
